@@ -112,16 +112,6 @@ button.icon-btn:hover { color: var(--accent); }
   .stations td { display: block; border: 0; padding: 2px 8px; }
 }
 
-.level { margin-bottom: 14px; }
-.level h3 { margin: 0 0 6px; }
-.step {
-  display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; align-items: center;
-  padding: 8px; border-top: 1px solid var(--line);
-}
-.step .what { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-.step .details { grid-column: 2; color: var(--muted); font-size: .88rem; }
-.times { font-weight: 700; color: var(--accent-2); font-variant-numeric: tabular-nums; }
-
 .tree { margin: 0 0 12px; }
 .tree ul { list-style: none; margin: 0; padding-left: 22px; border-left: 1px dashed var(--line); }
 .tree > ul { padding-left: 0; border: 0; }

@@ -210,25 +210,6 @@ function renderTotals() {
       h("td", {}, info.unlock || (s.name === "By Hand" ? "—" : "Default")),
       h("td", { class: "alt" }, s.items.join(", ")));
   }));
-
-  const levels = new Map();
-  for (const step of totals.steps) {
-    if (!levels.has(step.level)) levels.set(step.level, []);
-    levels.get(step.level).push(step);
-  }
-  document.getElementById("steps").replaceChildren(...[...levels.entries()].map(([level, steps]) =>
-    h("div", { class: "level" },
-      h("h3", {}, `Step ${level}`),
-      steps.map((s) => h("div", { class: "step" },
-        icon(s.item),
-        h("div", { class: "what" },
-          h("span", { class: "times" }, `${fmt(s.crafts)}×`),
-          link(s.item),
-          h("span", { class: "at" }, `at ${s.recipe.stations[0]}`),
-          s.made > s.need ? h("span", { class: "badge" }, `makes ${fmt(s.made)}, need ${fmt(s.need)}`) : null),
-        h("div", { class: "details" },
-          s.recipe.inputs.map((i) => `${fmt(i.qty * s.crafts)} ${i.item}`).join(" + "),
-          s.recipe.time ? ` · ${s.recipe.time} each` : ""))))));
 }
 
 function treeNode(node, depth) {
