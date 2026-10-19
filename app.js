@@ -137,11 +137,18 @@ function pick(names) {
 
 // ---------------------------------------------------------------- build list
 
+// "makes 2 per craft": explains why 1 and 2 cost the same.
+function batchHint(entry) {
+  const recipe = recipeFor(data, entry.item, choices);
+  const per = recipe ? outputQty(recipe, entry.item) : 1;
+  return per > 1 ? h("span", { class: "alt hint" }, ` · ${per} per craft`) : null;
+}
+
 function renderBuild() {
   const list = document.getElementById("build");
   list.replaceChildren(...build.map((entry) => h("li", {},
     icon(entry.item, true),
-    h("span", { class: "name" }, entry.item),
+    h("span", { class: "name" }, entry.item, batchHint(entry)),
     h("input", { type: "number", min: "1", value: entry.qty, "aria-label": `Quantity of ${entry.item}`,
       onchange: (e) => { entry.qty = Math.max(1, Math.floor(Number(e.target.value)) || 1); render(); } }),
     h("button", { class: "icon-btn", title: "Remove", "aria-label": `Remove ${entry.item}`,
@@ -233,6 +240,8 @@ function treeNode(node, depth) {
   if (node.recipe) {
     head.push(h("span", { class: "at" }, `${fmt(node.crafts)}× at ${node.recipe.stations[0]}` +
       (node.recipe.stations.length > 1 ? ` (or ${node.recipe.stations.slice(1).join(", ")})` : "")));
+    const made = node.crafts * outputQty(node.recipe, node.item);
+    if (made > node.qty) head.push(h("span", { class: "badge", title: `One craft makes ${outputQty(node.recipe, node.item)}` }, `makes ${fmt(made)}`));
   } else {
     head.push(h("span", { class: "badge raw" }, node.cycle ? "farm (loop)" : "farm"));
   }
