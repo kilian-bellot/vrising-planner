@@ -4,6 +4,7 @@
   "Alucard's Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Armour_AlucardsBoots.png/revision/latest/scale-to-width-down/64?cb=20240511124013",
+   "fr": "Bottes d’Alucard",
    "wiki": true,
    "recipes": [
     95
@@ -13,6 +14,7 @@
   "Alucard's Cloak": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/93/Cloak_AlucardsCloak.png/revision/latest/scale-to-width-down/64?cb=20240511123849",
+   "fr": "Cape d’Alucard",
    "wiki": true,
    "recipes": [
     96
@@ -22,6 +24,7 @@
   "Alucard's Coat": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/37/Armour_AlucardsCoat.png/revision/latest/scale-to-width-down/64?cb=20240511123949",
+   "fr": "Plastron d’Alucard",
    "wiki": true,
    "recipes": [
     92
@@ -31,6 +34,7 @@
   "Alucard's Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/dc/Armour_AlucardsGloves.png/revision/latest/scale-to-width-down/64?cb=20240511124006",
+   "fr": "Gants d’Alucard",
    "wiki": true,
    "recipes": [
     94
@@ -40,6 +44,7 @@
   "Alucard's Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Armour_AlucardsLeggings.png/revision/latest/scale-to-width-down/64?cb=20240511123958",
+   "fr": "Jambières d’Alucard",
    "wiki": true,
    "recipes": [
     93
@@ -49,6 +54,7 @@
   "Amulet of the Arch-Warlock": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e7/Jewelry_AmuletoftheArch-Warlock.png/revision/latest/scale-to-width-down/64?cb=20230521033622",
+   "fr": "Amulette de l’archimage",
    "wiki": true,
    "recipes": [
     98
@@ -58,6 +64,7 @@
   "Amulet of the Blademaster": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4f/Jewelry_AmuletoftheBlademaster.png/revision/latest/scale-to-width-down/64?cb=20230521034117",
+   "fr": "Amulette du maître des lames",
    "wiki": true,
    "recipes": [
     99
@@ -67,6 +74,7 @@
   "Amulet of the Crimson Commander": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/41/Jewelry_AmuletoftheCrimsonCommander.png/revision/latest/scale-to-width-down/64?cb=20230522193738",
+   "fr": "Amulette du commandant écarlate",
    "wiki": true,
    "recipes": [
     103
@@ -76,6 +84,7 @@
   "Amulet of the Master Spellweaver": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7e/Jewelry_AmuletoftheMasterSpellweaver.png/revision/latest/scale-to-width-down/64?cb=20230521034054",
+   "fr": "Amulette du maître tisseur de sorts",
    "wiki": true,
    "recipes": [
     101
@@ -85,6 +94,7 @@
   "Amulet of the Unyielding Charger": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/23/Jewelry_AmuletoftheUnyieldingCharger.png/revision/latest/scale-to-width-down/64?cb=20230521034027",
+   "fr": "Amulette du coursier infatigable",
    "wiki": true,
    "recipes": [
     102
@@ -94,6 +104,7 @@
   "Amulet of the Wicked Prophet": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fe/Jewelry_AmuletoftheWickedProphet.png/revision/latest/scale-to-width-down/64?cb=20230522193620",
+   "fr": "Amulette du prophète maléfique",
    "wiki": true,
    "recipes": [
     100,
@@ -104,6 +115,7 @@
   "Apocalypse": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8c/Weapon_Apocalypse.png/revision/latest/scale-to-width-down/64?cb=20250504013114",
+   "fr": "Apocalypse",
    "wiki": true,
    "recipes": [
     153
@@ -113,6 +125,7 @@
   "Apocalypse Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e2/Item_AncestralGreatswordShards.png/revision/latest/scale-to-width-down/64?cb=20230531041138",
+   "fr": "Fragment : Apocalypse",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -120,6 +133,7 @@
   "Banshee": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b9/Item_Banshee.png/revision/latest/scale-to-width-down/64?cb=20230522000005",
+   "fr": "Banshee",
    "wiki": true,
    "recipes": [
     154
@@ -129,6 +143,7 @@
   "Barrel Disguise": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3b/Item_BarrelDisguise.png/revision/latest/scale-to-width-down/64?cb=20230520232248",
+   "fr": "Camouflage tonneau",
    "wiki": true,
    "recipes": [
     155
@@ -138,6 +153,7 @@
   "Bat Hide": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Item_BatHide.png/revision/latest/scale-to-width-down/64?cb=20240508133614",
+   "fr": "Peau de chauve-souris",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -145,6 +161,7 @@
   "Bat Leather": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b6/Item_BatLeather.png/revision/latest/scale-to-width-down/64?cb=20240508133548",
+   "fr": "Cuir de chauve-souris",
    "wiki": true,
    "recipes": [
     42
@@ -154,6 +171,7 @@
   "Bat Leather Bag": {
    "type": "Bag",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/86/Bag_BatLeatherBag.png/revision/latest/scale-to-width-down/64?cb=20240508134933",
+   "fr": "Sac en cuir de chauve-souris",
    "wiki": true,
    "recipes": [
     156
@@ -163,6 +181,7 @@
   "Bleeding Heart": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/22/Item_BleedingHeart.png/revision/latest/scale-to-width-down/64?cb=20240512111837",
+   "fr": "Cœur ensanglanté",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -170,6 +189,7 @@
   "Blood Bone Ring": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cb/Jewelry_BloodBoneRing.png/revision/latest/scale-to-width-down/64?cb=20240516224430",
+   "fr": "Anneau d’os sanglant",
    "wiki": true,
    "recipes": [
     135
@@ -179,6 +199,7 @@
   "Blood Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/30/Item_BloodCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171351",
+   "fr": "Enduit de sang",
    "wiki": true,
    "recipes": [
     31
@@ -188,6 +209,7 @@
   "Blood Corpse Pile": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/76/Item_BloodCorpsePile.png/revision/latest/scale-to-width-down/64?cb=20250504012546",
+   "fr": "Amas cadavérique sanguinolent",
    "wiki": true,
    "recipes": [
     182
@@ -197,6 +219,7 @@
   "Blood Crystal": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/38/Item_BloodCrystal.png/revision/latest/scale-to-width-down/64?cb=20240512003126",
+   "fr": "Cristal de sang",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -204,6 +227,7 @@
   "Blood Elemental": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c1/Item_BloodElemental.png/revision/latest/scale-to-width-down/64?cb=20250514173247",
+   "fr": "Élémentaire sanguin",
    "wiki": true,
    "recipes": [
     183
@@ -213,6 +237,7 @@
   "Blood Essence": {
    "type": "Blood essence",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/51/Item_BloodEssence.png/revision/latest/scale-to-width-down/64?cb=20220528211530",
+   "fr": "Essence sanguine",
    "wiki": true,
    "recipes": [
     86,
@@ -223,6 +248,7 @@
   "Blood Golem": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2e/Item_BloodGolem.png/revision/latest/scale-to-width-down/64?cb=20250504012555",
+   "fr": "Golem sanguin",
    "wiki": true,
    "recipes": [
     184
@@ -232,6 +258,7 @@
   "Blood Harpy": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0d/Item_BloodHarpy.png/revision/latest/scale-to-width-down/64?cb=20250504012520",
+   "fr": "Harpie sanguine",
    "wiki": true,
    "recipes": [
     181
@@ -241,6 +268,7 @@
   "Blood Hunter Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5b/Armour_BloodHunterBoots.png/revision/latest/scale-to-width-down/64?cb=20240510175126",
+   "fr": "Bottes de chasseur de sang",
    "wiki": true,
    "recipes": [
     179
@@ -250,6 +278,7 @@
   "Blood Hunter Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e7/Armour_BloodHunterChestguard.png/revision/latest/scale-to-width-down/64?cb=20240510175047",
+   "fr": "Plastron de chasseur de sang",
    "wiki": true,
    "recipes": [
     177
@@ -259,6 +288,7 @@
   "Blood Hunter Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8d/Armour_BloodHunterGloves.png/revision/latest/scale-to-width-down/64?cb=20240510175142",
+   "fr": "Gants de chasseur de sang",
    "wiki": true,
    "recipes": [
     180
@@ -268,6 +298,7 @@
   "Blood Hunter Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6c/Armour_BloodHunterLeggings.png/revision/latest/scale-to-width-down/64?cb=20240510175112",
+   "fr": "Jambières de chasseur de sang",
    "wiki": true,
    "recipes": [
     178
@@ -277,6 +308,7 @@
   "Blood Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/db/Jewel_BloodTier1.png/revision/latest/scale-to-width-down/64?cb=20230521034750",
+   "fr": "Joyau sanguin de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -284,6 +316,7 @@
   "Blood Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/21/Jewel_BloodTier2.png/revision/latest/scale-to-width-down/64?cb=20230521034805",
+   "fr": "Joyau sanguin de rang 2",
    "wiki": true,
    "recipes": [
     448
@@ -293,6 +326,7 @@
   "Blood Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cd/Jewel_BloodTier3.png/revision/latest/scale-to-width-down/64?cb=20230521034831",
+   "fr": "Joyau sanguin de rang 3",
    "wiki": true,
    "recipes": [
     473
@@ -302,6 +336,7 @@
   "Blood Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/19/Jewel_BloodTier4.png/revision/latest/scale-to-width-down/64?cb=20230521034846",
+   "fr": "Joyau sanguin de rang 4",
    "wiki": true,
    "recipes": [
     433
@@ -311,6 +346,7 @@
   "Blood Key": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/13/Jewelry_BloodKey.png/revision/latest/scale-to-width-down/64?cb=20230521030703",
+   "fr": "Clé de sang",
    "wiki": true,
    "recipes": [
     152
@@ -320,6 +356,7 @@
   "Blood Merlot": {
    "type": "Blood potion",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/34/Item_BloodMerlot.png/revision/latest/scale-to-width-down/64?cb=20250428213655",
+   "fr": "Merlot sanglant",
    "wiki": true,
    "recipes": [
     175
@@ -329,6 +366,7 @@
   "Blood Merlot Amulet": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/29/Jewelry_BloodMerlotAmulet.png/revision/latest/scale-to-width-down/64?cb=20230521033418",
+   "fr": "Amulette de merlot sanglant",
    "wiki": true,
    "recipes": [
     150
@@ -338,6 +376,7 @@
   "Blood Potion": {
    "type": "Blood potion",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/19/Item_BloodPotion.png/revision/latest/scale-to-width-down/64?cb=20220531170848",
+   "fr": "Potion de sang",
    "wiki": true,
    "recipes": [
     206
@@ -347,6 +386,7 @@
   "Blood Rose": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4e/Item_BloodRose.png/revision/latest/scale-to-width-down/64?cb=20230519053925",
+   "fr": "Rose sanguine",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -354,6 +394,7 @@
   "Blood Rose Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bf/Item_BloodRoseBrew.png/revision/latest/scale-to-width-down/64?cb=20220528211221",
+   "fr": "Breuvage de rose sanguine",
    "wiki": true,
    "recipes": [
     3
@@ -363,6 +404,7 @@
   "Blood Rose Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5a/Item_BloodRosePotion.png/revision/latest/scale-to-width-down/64?cb=20220528211221",
+   "fr": "Potion de rose sanguine",
    "wiki": true,
    "recipes": [
     12
@@ -372,6 +414,7 @@
   "Blood Snapper": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Item_BloodSnapper.png/revision/latest/scale-to-width-down/64?cb=20220529093840",
+   "fr": "Vivaneau de sang",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -379,6 +422,7 @@
   "Blood Treant": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5d/Item_BloodTreant.png/revision/latest/scale-to-width-down/64?cb=20250504012522",
+   "fr": "Tréant sanguin",
    "wiki": true,
    "recipes": [
     207
@@ -388,6 +432,7 @@
   "Blood Witch": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/63/Item_BloodWitch.png/revision/latest/scale-to-width-down/64?cb=20250504012619",
+   "fr": "Sorcière sanguine",
    "wiki": true,
    "recipes": [
     208
@@ -397,6 +442,7 @@
   "Bloodmoon Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c9/Armour_BloodmoonBoots.png/revision/latest/scale-to-width-down/64?cb=20220528174817",
+   "fr": "Bottes de la lune de sang",
    "wiki": true,
    "recipes": [
     203
@@ -406,6 +452,7 @@
   "Bloodmoon Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1f/Armour_BloodmoonChestguard.png/revision/latest/scale-to-width-down/64?cb=20220528174818",
+   "fr": "Plastron de la lune de sang",
    "wiki": true,
    "recipes": [
     201
@@ -415,6 +462,7 @@
   "Bloodmoon Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/ff/Armour_BloodmoonGloves.png/revision/latest/scale-to-width-down/64?cb=20220528174818",
+   "fr": "Gants de la lune de sang",
    "wiki": true,
    "recipes": [
     204
@@ -424,6 +472,7 @@
   "Bloodmoon Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e1/Armour_BloodmoonLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528174818",
+   "fr": "Jambières de la lune de sang",
    "wiki": true,
    "recipes": [
     202
@@ -433,6 +482,7 @@
   "Bone": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1e/Item_Bone.png/revision/latest/scale-to-width-down/64?cb=20220525131643",
+   "fr": "Os",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -440,6 +490,7 @@
   "Bone Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/37/Weapon_BoneAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171126",
+   "fr": "Haches d’os",
    "wiki": true,
    "recipes": [
     186
@@ -449,6 +500,7 @@
   "Bone Castle Key": {
    "type": "Stackable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b5/Item_BoneCastleKey.png/revision/latest/scale-to-width-down/64?cb=20220528211354",
+   "fr": "Clé de château en os",
    "wiki": true,
    "recipes": [
     174,
@@ -459,6 +511,7 @@
   "Bone Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0d/Weapon_BoneCrossbow.png/revision/latest/scale-to-width-down/64?cb=20230521190320",
+   "fr": "Arbalète d’os",
    "wiki": true,
    "recipes": [
     189
@@ -468,6 +521,7 @@
   "Bone Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/10/Weapon_BoneMace.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Masse d’os",
    "wiki": true,
    "recipes": [
     187
@@ -477,6 +531,7 @@
   "Bone Ring": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/59/Jewelry_BoneRing.png/revision/latest/scale-to-width-down/64?cb=20240901114309",
+   "fr": "Anneau d’os",
    "wiki": true,
    "recipes": [
     134
@@ -486,6 +541,7 @@
   "Bone Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b1/Weapon_BoneSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Lance d’os",
    "wiki": true,
    "recipes": [
     188
@@ -495,6 +551,7 @@
   "Bone Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Weapon_BoneSword.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Épée d’os",
    "wiki": true,
    "recipes": [
     195,
@@ -505,6 +562,7 @@
   "Boneguard Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2c/Armour_BoneguardBoots.png/revision/latest/scale-to-width-down/64?cb=20220528172851",
+   "fr": "Bottes d’ossadure",
    "wiki": true,
    "recipes": [
     193
@@ -514,6 +572,7 @@
   "Boneguard Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5b/Armour_BoneguardChestguard.png/revision/latest/scale-to-width-down/64?cb=20220528172851",
+   "fr": "Plastron d’ossadure",
    "wiki": true,
    "recipes": [
     190
@@ -523,6 +582,7 @@
   "Boneguard Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Armour_BoneguardGloves.png/revision/latest/scale-to-width-down/64?cb=20220528172851",
+   "fr": "Gants d’ossadure",
    "wiki": true,
    "recipes": [
     192
@@ -532,6 +592,7 @@
   "Boneguard Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/14/Armour_BoneguardLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528172850",
+   "fr": "Jambières d’ossadure",
    "wiki": true,
    "recipes": [
     191
@@ -541,6 +602,7 @@
   "Brew of Ferocity": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Item_BrewofFerocity.png/revision/latest/scale-to-width-down/64?cb=20230521030303",
+   "fr": "Breuvage de férocité",
    "wiki": true,
    "recipes": [
     7
@@ -550,6 +612,7 @@
   "Carpet Roll": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ed/Item_CarpetRoll.png/revision/latest/scale-to-width-down/64?cb=20230520201115",
+   "fr": "Rouleau de tapis",
    "wiki": true,
    "recipes": [
     71
@@ -559,6 +622,7 @@
   "Chaos Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/04/Item_ChaosCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171401",
+   "fr": "Enduit du chaos",
    "wiki": true,
    "recipes": [
     32
@@ -568,6 +632,7 @@
   "Chaos Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d3/Jewel_ChaosTier1.png/revision/latest/scale-to-width-down/64?cb=20230521034913",
+   "fr": "Joyau chaotique de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -575,6 +640,7 @@
   "Chaos Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0f/Jewel_ChaosTier2.png/revision/latest/scale-to-width-down/64?cb=20230521034928",
+   "fr": "Joyau chaotique de rang 2",
    "wiki": true,
    "recipes": [
     449
@@ -584,6 +650,7 @@
   "Chaos Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b3/Jewel_ChaosTier3.png/revision/latest/scale-to-width-down/64?cb=20230521034949",
+   "fr": "Joyau chaotique de rang 3",
    "wiki": true,
    "recipes": [
     474
@@ -593,6 +660,7 @@
   "Chaos Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cd/Jewel_ChaosTier4.png/revision/latest/scale-to-width-down/64?cb=20230521035007",
+   "fr": "Joyau chaotique de rang 4",
    "wiki": true,
    "recipes": [
     434
@@ -602,6 +670,7 @@
   "Chemical Soaked Cloak": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0f/Cloak_ChemicalSoakedCloak.png/revision/latest/scale-to-width-down/64?cb=20230531025708",
+   "fr": "Cape imbibée de produits chimiques",
    "wiki": true,
    "recipes": [
     209
@@ -611,6 +680,7 @@
   "Chemical Soaked Drape": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Cloak_ChemicalSoakedDrape.png/revision/latest/scale-to-width-down/64?cb=20230531025635",
+   "fr": "Soubreveste imbibée de produits chimiques",
    "wiki": true,
    "recipes": [
     241
@@ -620,6 +690,7 @@
   "Chemical Soaked Regalia": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2a/Cloak_ChemicalSoakedRegalia.png/revision/latest/scale-to-width-down/64?cb=20230531025728",
+   "fr": "Atours imbibés de produits chimiques",
    "wiki": true,
    "recipes": [
     210
@@ -629,6 +700,7 @@
   "Clay": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/19/Item_Clay.png/revision/latest/scale-to-width-down/64?cb=20220529095125",
+   "fr": "Argile",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -636,6 +708,7 @@
   "Cloth": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/04/Item_Cloth.png/revision/latest/scale-to-width-down/64?cb=20220526220301",
+   "fr": "Tissu",
    "wiki": true,
    "recipes": [
     67,
@@ -647,6 +720,7 @@
   "Cloud Dancers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1c/Weapon_CloudDancers.png/revision/latest/scale-to-width-down/64?cb=20250504013213",
+   "fr": "Danseurs célestes",
    "wiki": true,
    "recipes": [
     269
@@ -656,6 +730,7 @@
   "Cloud Dancers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Item_AncestralSlashersShards.png/revision/latest/scale-to-width-down/64?cb=20230531041154",
+   "fr": "Fragment : Danseurs célestes",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -663,6 +738,7 @@
   "Coarse Thread": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2d/Item_CoarseThread.png/revision/latest/scale-to-width-down/64?cb=20230517160106",
+   "fr": "Fil grossier",
    "wiki": true,
    "recipes": [
     70
@@ -672,6 +748,7 @@
   "Copper Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/05/Weapon_CopperAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171127",
+   "fr": "Haches de cuivre",
    "wiki": true,
    "recipes": [
     263,
@@ -682,6 +759,7 @@
   "Copper Castle Key": {
    "type": "Stackable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a0/Item_CopperCastleKey.png/revision/latest/scale-to-width-down/64?cb=20220528211353",
+   "fr": "Clé de château en cuivre",
    "wiki": true,
    "recipes": [
     236
@@ -691,6 +769,7 @@
   "Copper Coin": {
    "type": "Coin",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f9/Item_CopperCoin.png/revision/latest/scale-to-width-down/64?cb=20230517160456",
+   "fr": "Pièce de cuivre",
    "wiki": true,
    "recipes": [
     211
@@ -700,6 +779,7 @@
   "Copper Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/53/Weapon_CopperCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Arbalète en cuivre",
    "wiki": true,
    "recipes": [
     265,
@@ -710,6 +790,7 @@
   "Copper Ingot": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/21/Item_CopperIngot.png/revision/latest/scale-to-width-down/64?cb=20220529095126",
+   "fr": "Lingot de cuivre",
    "wiki": true,
    "recipes": [
     43
@@ -719,6 +800,7 @@
   "Copper Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/73/Weapon_CopperLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205442",
+   "fr": "Arc long de cuivre",
    "wiki": true,
    "recipes": [
     267,
@@ -729,6 +811,7 @@
   "Copper Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/44/Weapon_CopperMace.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Masse de cuivre",
    "wiki": true,
    "recipes": [
     261,
@@ -739,6 +822,7 @@
   "Copper Ore": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cc/Item_CopperOre.png/revision/latest/scale-to-width-down/64?cb=20230520211036",
+   "fr": "Minerai de cuivre",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -746,6 +830,7 @@
   "Copper Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/05/Weapon_CopperSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171225",
+   "fr": "Lance de cuivre",
    "wiki": true,
    "recipes": [
     257,
@@ -756,6 +841,7 @@
   "Copper Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fa/Weapon_CopperSword.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Épée de cuivre",
    "wiki": true,
    "recipes": [
     259,
@@ -766,6 +852,7 @@
   "Corrupted Fish": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5c/Item_CorruptedFish.png/revision/latest/scale-to-width-down/64?cb=20250428172110",
+   "fr": "Poisson corrompu",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -773,6 +860,7 @@
   "Corrupted Flower": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/56/Item_CorruptedFlower.png/revision/latest/scale-to-width-down/64?cb=20250428171920",
+   "fr": "Fleur corrompue",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -780,6 +868,7 @@
   "Corrupted Oak": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1f/Item_CorruptedOak.png/revision/latest/scale-to-width-down/64?cb=20250428171853",
+   "fr": "Chêne corrompu",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -787,6 +876,7 @@
   "Cotton": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Item_Cotton.png/revision/latest/scale-to-width-down/64?cb=20230519053717",
+   "fr": "Coton",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -794,6 +884,7 @@
   "Cotton Yarn": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9f/Item_CottonYarn.png/revision/latest/scale-to-width-down/64?cb=20230520201242",
+   "fr": "Fil de coton",
    "wiki": true,
    "recipes": [
     72
@@ -803,6 +894,7 @@
   "Crimson Templar Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b0/Armour_CrimsonTemplarBoots.png/revision/latest/scale-to-width-down/64?cb=20240508160601",
+   "fr": "Bottes de templier écarlate",
    "wiki": true,
    "recipes": [
     290
@@ -812,6 +904,7 @@
   "Crimson Templar Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/88/Armour_CrimsonTemplarChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508160542",
+   "fr": "Plastron de templier écarlate",
    "wiki": true,
    "recipes": [
     288
@@ -821,6 +914,7 @@
   "Crimson Templar Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8b/Armour_CrimsonTemplarGloves.png/revision/latest/scale-to-width-down/64?cb=20240508160611",
+   "fr": "Gants de templier écarlate",
    "wiki": true,
    "recipes": [
     291
@@ -830,6 +924,7 @@
   "Crimson Templar Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/61/Armour_CrimsonTemplarLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508160552",
+   "fr": "Jambières de templier écarlate",
    "wiki": true,
    "recipes": [
     289
@@ -839,6 +934,7 @@
   "Crude Amethyst": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7f/Item_CrudeAmethyst.png/revision/latest/scale-to-width-down/64?cb=20230520202426",
+   "fr": "Améthyste brute",
    "wiki": true,
    "recipes": [
     284
@@ -848,6 +944,7 @@
   "Crude Emerald": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fd/Item_CrudeEmerald.png/revision/latest/scale-to-width-down/64?cb=20230520202450",
+   "fr": "Émeraude brute",
    "wiki": true,
    "recipes": [
     277
@@ -857,6 +954,7 @@
   "Crude Miststone": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ee/Item_CrudeMiststone.png/revision/latest/scale-to-width-down/64?cb=20230520202523",
+   "fr": "Pierre de brume brute",
    "wiki": true,
    "recipes": [
     281
@@ -866,6 +964,7 @@
   "Crude Ruby": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f4/Item_CrudeRuby.png/revision/latest/scale-to-width-down/64?cb=20230520202325",
+   "fr": "Rubis brut",
    "wiki": true,
    "recipes": [
     296
@@ -875,6 +974,7 @@
   "Crude Sapphire": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0d/Item_CrudeSapphire.png/revision/latest/scale-to-width-down/64?cb=20230520202402",
+   "fr": "Saphir brut",
    "wiki": true,
    "recipes": [
     292
@@ -884,6 +984,7 @@
   "Crude Topaz": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7b/Item_CrudeTopaz.png/revision/latest/scale-to-width-down/64?cb=20230520202346",
+   "fr": "Topaze brut",
    "wiki": true,
    "recipes": [
     300
@@ -893,6 +994,7 @@
   "Cursed Wood": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ef/Item_CursedWood.png/revision/latest/scale-to-width-down/64?cb=20230517165521",
+   "fr": "Bois maudit",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -900,6 +1002,7 @@
   "Dark Magus Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6a/Armour_DarkMagusBoots.png/revision/latest/scale-to-width-down/64?cb=20240508161038",
+   "fr": "Bottes de mage noir",
    "wiki": true,
    "recipes": [
     306
@@ -909,6 +1012,7 @@
   "Dark Magus Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/18/Armour_DarkMagusChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508161012",
+   "fr": "Plastron de mage noir",
    "wiki": true,
    "recipes": [
     304
@@ -918,6 +1022,7 @@
   "Dark Magus Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bc/Armour_DarkMagusGloves.png/revision/latest/scale-to-width-down/64?cb=20240508161052",
+   "fr": "Gants de mage noir",
    "wiki": true,
    "recipes": [
     307
@@ -927,6 +1032,7 @@
   "Dark Magus Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9c/Armour_DarkMagusLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508161026",
+   "fr": "Jambières de mage noir",
    "wiki": true,
    "recipes": [
     305
@@ -936,6 +1042,7 @@
   "Dark Silver Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Weapon_DarkSilverAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171337",
+   "fr": "Haches d’argent sombre",
    "wiki": true,
    "recipes": [
     106
@@ -945,6 +1052,7 @@
   "Dark Silver Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4c/Weapon_DarkSilverClaws.png/revision/latest/scale-to-width-down/64?cb=20250428195951",
+   "fr": "Griffes d’argent sombre",
    "wiki": true,
    "recipes": [
     116
@@ -954,6 +1062,7 @@
   "Dark Silver Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2a/Weapon_DarkSilverCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Arbalète d’argent sombre",
    "wiki": true,
    "recipes": [
     111
@@ -963,6 +1072,7 @@
   "Dark Silver Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4a/Weapon_DarkSilverDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428181806",
+   "fr": "Dagues d’argent sombre",
    "wiki": true,
    "recipes": [
     114
@@ -972,6 +1082,7 @@
   "Dark Silver Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a1/Weapon_DarkSilverGreatsword.png/revision/latest/scale-to-width-down/64?cb=20230521233222",
+   "fr": "Grande épée d’argent sombre",
    "wiki": true,
    "recipes": [
     113
@@ -981,6 +1092,7 @@
   "Dark Silver Ingot": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/78/Item_DarkSilverIngot.png/revision/latest/scale-to-width-down/64?cb=20220529095508",
+   "fr": "Lingot d’argent sombre",
    "wiki": true,
    "recipes": [
     50
@@ -990,6 +1102,7 @@
   "Dark Silver Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3e/Weapon_DarkSilverLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205602",
+   "fr": "Arc long d’argent sombre",
    "wiki": true,
    "recipes": [
     112
@@ -999,6 +1112,7 @@
   "Dark Silver Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a7/Weapon_DarkSilverMace.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Masse d’argent sombre",
    "wiki": true,
    "recipes": [
     107
@@ -1008,6 +1122,7 @@
   "Dark Silver Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d3/Weapon_DarkSilverPistols.png/revision/latest/scale-to-width-down/64?cb=20230521233403",
+   "fr": "Pistolets en argent sombre",
    "wiki": true,
    "recipes": [
     117
@@ -1017,6 +1132,7 @@
   "Dark Silver Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e0/Weapon_DarkSilverReaper.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Faucheuse d’argent sombre",
    "wiki": true,
    "recipes": [
     109
@@ -1026,6 +1142,7 @@
   "Dark Silver Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/89/Weapon_DarkSilverSlashers.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Trancheuses d’argent sombre",
    "wiki": true,
    "recipes": [
     110
@@ -1035,6 +1152,7 @@
   "Dark Silver Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/03/Weapon_DarkSilverSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Lance d’argent sombre",
    "wiki": true,
    "recipes": [
     108
@@ -1044,6 +1162,7 @@
   "Dark Silver Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b8/Weapon_DarkSilverSword.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Épée d’argent sombre",
    "wiki": true,
    "recipes": [
     105
@@ -1053,6 +1172,7 @@
   "Dark Silver Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d0/Weapon_DarkSilverTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195709",
+   "fr": "Lame jumelle d’argent sombre",
    "wiki": true,
    "recipes": [
     115
@@ -1062,6 +1182,7 @@
   "Dark Silver Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/aa/Weapon_DarkSilverWhip.png/revision/latest/scale-to-width-down/64?cb=20240508142843",
+   "fr": "Fouet d’argent sombre",
    "wiki": true,
    "recipes": [
     118
@@ -1071,6 +1192,7 @@
   "Darkvenom War Saddle": {
    "type": "Saddle",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a6/Item_DarkvenomWarSaddle.png/revision/latest/scale-to-width-down/64?cb=20250430093524",
+   "fr": "Selle de guerre Sombrevenin",
    "wiki": true,
    "recipes": [
     308
@@ -1080,6 +1202,7 @@
   "Dawnthorn Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b5/Armour_DawnthornBoots.png/revision/latest/scale-to-width-down/64?cb=20240517060331",
+   "fr": "Bottes d’aubépine",
    "wiki": true,
    "recipes": [
     311
@@ -1089,6 +1212,7 @@
   "Dawnthorn Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/65/Armour_DawnthornChestguard.png/revision/latest/scale-to-width-down/64?cb=20240517060121",
+   "fr": "Plastron d’aubépine",
    "wiki": true,
    "recipes": [
     309
@@ -1098,6 +1222,7 @@
   "Dawnthorn Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/74/Armour_DawnthornGloves.png/revision/latest/scale-to-width-down/64?cb=20240517060401",
+   "fr": "Gants d’aubépine",
    "wiki": true,
    "recipes": [
     312
@@ -1107,6 +1232,7 @@
   "Dawnthorn Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1c/Armour_DawnthornLeggings.png/revision/latest/scale-to-width-down/64?cb=20240517060246",
+   "fr": "Jambières d’aubépine",
    "wiki": true,
    "recipes": [
     310
@@ -1116,6 +1242,7 @@
   "Depleted Battery": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a0/Item_DepletedBattery.png/revision/latest/scale-to-width-down/64?cb=20230517234852",
+   "fr": "Batterie vide",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1123,6 +1250,7 @@
   "Dracula's Dread Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/48/Armour_DraculasDreadBoots.png/revision/latest/scale-to-width-down/64?cb=20240508153353",
+   "fr": "Bottes terrifiantes de Dracula",
    "wiki": true,
    "recipes": [
     168
@@ -1132,6 +1260,7 @@
   "Dracula's Dread Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1f/Armour_DraculasDreadChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508153236",
+   "fr": "Plastron terrifiant de Dracula",
    "wiki": true,
    "recipes": [
     165
@@ -1141,6 +1270,7 @@
   "Dracula's Dread Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/52/Armour_DraculasDreadGloves.png/revision/latest/scale-to-width-down/64?cb=20240508153410",
+   "fr": "Gants terrifiants de Dracula",
    "wiki": true,
    "recipes": [
     167
@@ -1150,6 +1280,7 @@
   "Dracula's Dread Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0a/Armour_DraculasDreadLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508153249",
+   "fr": "Jambières terrifiantes de Dracula",
    "wiki": true,
    "recipes": [
     166
@@ -1159,6 +1290,7 @@
   "Dracula's Grim Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e4/Armour_DraculasGrimBoots.png/revision/latest/scale-to-width-down/64?cb=20240508153551",
+   "fr": "Bottes sinistres de Dracula",
    "wiki": true,
    "recipes": [
     164
@@ -1168,6 +1300,7 @@
   "Dracula's Grim Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2f/Armour_DraculasGrimChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508153523",
+   "fr": "Plastron sinistre de Dracula",
    "wiki": true,
    "recipes": [
     161
@@ -1177,6 +1310,7 @@
   "Dracula's Grim Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/40/Armour_DraculasGrimGloves.png/revision/latest/scale-to-width-down/64?cb=20240508153601",
+   "fr": "Gants sinistres de Dracula",
    "wiki": true,
    "recipes": [
     163
@@ -1186,6 +1320,7 @@
   "Dracula's Grim Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c2/Armour_DraculasGrimLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508153542",
+   "fr": "Jambières sinistres de Dracula",
    "wiki": true,
    "recipes": [
     162
@@ -1195,6 +1330,7 @@
   "Dracula's Maleficer Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/af/Armour_DraculasMaleficerBoots.png/revision/latest/scale-to-width-down/64?cb=20240508153124",
+   "fr": "Bottes maléfiques de Dracula",
    "wiki": true,
    "recipes": [
     172
@@ -1204,6 +1340,7 @@
   "Dracula's Maleficer Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/be/Armour_DraculasMaleficerChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508153049",
+   "fr": "Plastron maléfique de Dracula",
    "wiki": true,
    "recipes": [
     169
@@ -1213,6 +1350,7 @@
   "Dracula's Maleficer Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e4/Armour_DraculasMaleficerGloves.png/revision/latest/scale-to-width-down/64?cb=20240508153144",
+   "fr": "Gants maléfiques de Dracula",
    "wiki": true,
    "recipes": [
     171
@@ -1222,6 +1360,7 @@
   "Dracula's Maleficer Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7a/Armour_DraculasMaleficerLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508153112",
+   "fr": "Jambières maléfiques de Dracula",
    "wiki": true,
    "recipes": [
     170
@@ -1231,6 +1370,7 @@
   "Dracula's Shadow Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/93/Armour_DraculasShadowBoots.png/revision/latest/scale-to-width-down/64?cb=20240508153704",
+   "fr": "Bottes de l'ombre de Dracula",
    "wiki": true,
    "recipes": [
     160
@@ -1240,6 +1380,7 @@
   "Dracula's Shadow Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b2/Armour_DraculasShadowChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508153642",
+   "fr": "Plastron de l'ombre de Dracula",
    "wiki": true,
    "recipes": [
     157
@@ -1249,6 +1390,7 @@
   "Dracula's Shadow Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/16/Armour_DraculasShadowGloves.png/revision/latest/scale-to-width-down/64?cb=20240508153714",
+   "fr": "Gants de l'ombre de Dracula",
    "wiki": true,
    "recipes": [
     159
@@ -1258,6 +1400,7 @@
   "Dracula's Shadow Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/61/Armour_DraculasShadowLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508153652",
+   "fr": "Jambières de l'ombre de Dracula",
    "wiki": true,
    "recipes": [
     158
@@ -1267,6 +1410,7 @@
   "Dread Plate Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Armour_DreadPlateBoots.png/revision/latest/scale-to-width-down/64?cb=20240508161452",
+   "fr": "Bottes de plates terrifiantes",
    "wiki": true,
    "recipes": [
     320
@@ -1276,6 +1420,7 @@
   "Dread Plate Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7d/Armour_DreadPlateChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508161423",
+   "fr": "Plastron de plates terrifiant",
    "wiki": true,
    "recipes": [
     318
@@ -1285,6 +1430,7 @@
   "Dread Plate Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/02/Armour_DreadPlateGloves.png/revision/latest/scale-to-width-down/64?cb=20240508161501",
+   "fr": "Gants de plates terrifiantes",
    "wiki": true,
    "recipes": [
     321
@@ -1294,6 +1440,7 @@
   "Dread Plate Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e6/Armour_DreadPlateLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508161443",
+   "fr": "Jambières de plates terrifiantes",
    "wiki": true,
    "recipes": [
     319
@@ -1303,6 +1450,7 @@
   "Dueling Banner": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/59/Item_DuelingBanner.png/revision/latest/scale-to-width-down/64?cb=20250429041045",
+   "fr": "Bannière de duel",
    "wiki": true,
    "recipes": [
     173
@@ -1312,6 +1460,7 @@
   "Dusk Caller": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/07/Item_DuskCaller.png/revision/latest/scale-to-width-down/64?cb=20230519051418",
+   "fr": "Invocateur du crépuscule",
    "wiki": true,
    "recipes": [
     17
@@ -1321,6 +1470,7 @@
   "Duskwatcher Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Armour_DuskwatcherBoots.png/revision/latest/scale-to-width-down/64?cb=20240508160350",
+   "fr": "Bottes de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     316
@@ -1330,6 +1480,7 @@
   "Duskwatcher Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c4/Armour_DuskwatcherChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508160321",
+   "fr": "Plastron de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     314
@@ -1339,6 +1490,7 @@
   "Duskwatcher Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Armour_DuskwatcherGloves.png/revision/latest/scale-to-width-down/64?cb=20240508160405",
+   "fr": "Gants de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     317
@@ -1348,6 +1500,7 @@
   "Duskwatcher Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/37/Armour_DuskwatcherLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508160336",
+   "fr": "Jambières de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     315
@@ -1357,6 +1510,7 @@
   "EMP": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/63/Item_EMP.png/revision/latest/scale-to-width-down/64?cb=20230517213431",
+   "fr": "IEM",
    "wiki": true,
    "recipes": [
     322
@@ -1366,6 +1520,7 @@
   "Elemental Awakening Scroll": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b3/Item_ElementalAwakeningScroll.png/revision/latest/scale-to-width-down/64?cb=20250504010252",
+   "fr": null,
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1373,6 +1528,7 @@
   "Elixir of the Bat": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5e/Item_ElixiroftheBat.png/revision/latest/scale-to-width-down/64?cb=20260303170747",
+   "fr": "Élixir de la chauve-souris",
    "wiki": true,
    "recipes": [
     24
@@ -1382,6 +1538,7 @@
   "Elixir of the Beast": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/63/Item_ElixiroftheBeast.png/revision/latest/scale-to-width-down/64?cb=20250428171519",
+   "fr": "Élixir de la bête",
    "wiki": true,
    "recipes": [
     26
@@ -1391,6 +1548,7 @@
   "Elixir of the Blasphemous": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5a/Item_ElixiroftheBlasphemous.png/revision/latest/scale-to-width-down/64?cb=20250428171525",
+   "fr": "Élixir du blasphémateur",
    "wiki": true,
    "recipes": [
     29
@@ -1400,6 +1558,7 @@
   "Elixir of the Crow": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c9/Item_ElixiroftheCrow.png/revision/latest/scale-to-width-down/64?cb=20250428171538",
+   "fr": "Élixir de la corneille",
    "wiki": true,
    "recipes": [
     23
@@ -1409,6 +1568,7 @@
   "Elixir of the Prowler": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3f/Item_ElixiroftheProwler.png/revision/latest/scale-to-width-down/64?cb=20250428171609",
+   "fr": "Élixir du rôdeur",
    "wiki": true,
    "recipes": [
     27
@@ -1418,6 +1578,7 @@
   "Elixir of the Raven": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/60/Item_ElixiroftheRaven.png/revision/latest/scale-to-width-down/64?cb=20250428171614",
+   "fr": "Élixir du corbeau",
    "wiki": true,
    "recipes": [
     28
@@ -1427,6 +1588,7 @@
   "Elixir of the Twisted": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c5/Item_ElixiroftheTwisted.png/revision/latest/scale-to-width-down/64?cb=20250428171630",
+   "fr": "Élixir du déviant",
    "wiki": true,
    "recipes": [
     30
@@ -1436,6 +1598,7 @@
   "Elixir of the Werewolf": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7f/Item_ElixiroftheWerewolf.png/revision/latest/scale-to-width-down/64?cb=20250428171635",
+   "fr": "Élixir du loup-garou",
    "wiki": true,
    "recipes": [
     25
@@ -1445,6 +1608,7 @@
   "Ember Glass": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/28/Item_EmberGlass.png/revision/latest/scale-to-width-down/64?cb=20250428171847",
+   "fr": "Verrebraise",
    "wiki": true,
    "recipes": [
     52
@@ -1454,6 +1618,7 @@
   "Emery": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Item_Emery.png/revision/latest/scale-to-width-down/64?cb=20250428171909",
+   "fr": "Émeri",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1461,6 +1626,7 @@
   "Empty Glass Bottle": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5c/Item_EmptyGlassBottle.png/revision/latest/scale-to-width-down/64?cb=20250501025951",
+   "fr": "Bouteille de verre vide",
    "wiki": true,
    "recipes": [
     11
@@ -1470,6 +1636,7 @@
   "Empty Waterskin": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Item_EmptyWaterskin.png/revision/latest/scale-to-width-down/64?cb=20220526211557",
+   "fr": "Outre vide",
    "wiki": true,
    "recipes": [
     1,
@@ -1482,6 +1649,7 @@
   "Enchanted Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2c/Item_EnchantedBrew.png/revision/latest/scale-to-width-down/64?cb=20230521030251",
+   "fr": "Breuvage enchanté",
    "wiki": true,
    "recipes": [
     8
@@ -1491,6 +1659,7 @@
   "Epic Ancestral Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/34/Weapon_EpicAncestralAxes.png/revision/latest/scale-to-width-down/64?cb=20240508200728",
+   "fr": "Haches ancestrales (épique)",
    "wiki": true,
    "recipes": [
     324
@@ -1500,6 +1669,7 @@
   "Epic Ancestral Axes Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b1/Item_EpicAncestralAxesShard.png/revision/latest/scale-to-width-down/64?cb=20240508200156",
+   "fr": "Fragments de haches ancestrales (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1507,6 +1677,7 @@
   "Epic Ancestral Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bf/Weapon_EpicAncestralClaws.png/revision/latest/scale-to-width-down/64?cb=20250428200034",
+   "fr": "Griffes ancestrales (épique)",
    "wiki": true,
    "recipes": [
     331
@@ -1516,6 +1687,7 @@
   "Epic Ancestral Claws Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/26/Item_EpicAncestralClawsShard.png/revision/latest/scale-to-width-down/64?cb=20250428200131",
+   "fr": "Fragments de griffes ancestrales (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1523,6 +1695,7 @@
   "Epic Ancestral Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/96/Weapon_EpicAncestralCrossbow.png/revision/latest/scale-to-width-down/64?cb=20240508200837",
+   "fr": "Arbalète ancestrale (épique)",
    "wiki": true,
    "recipes": [
     335
@@ -1532,6 +1705,7 @@
   "Epic Ancestral Crossbow Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/60/Item_EpicAncestralCrossbowShard.png/revision/latest/scale-to-width-down/64?cb=20240508200252",
+   "fr": "Fragments d’arbalète ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1539,6 +1713,7 @@
   "Epic Ancestral Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b8/Weapon_EpicAncestralDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428195257",
+   "fr": "Dagues ancestrales (épique)",
    "wiki": true,
    "recipes": [
     333
@@ -1548,6 +1723,7 @@
   "Epic Ancestral Daggers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/50/Item_EpicAncestralDaggersShard.png/revision/latest/scale-to-width-down/64?cb=20250428195253",
+   "fr": "Fragments de dagues ancestrales (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1555,6 +1731,7 @@
   "Epic Ancestral Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/64/Weapon_EpicAncestralGreatsword.png/revision/latest/scale-to-width-down/64?cb=20240508200821",
+   "fr": "Grande épée ancestrale (épique)",
    "wiki": true,
    "recipes": [
     329
@@ -1564,6 +1741,7 @@
   "Epic Ancestral Greatsword Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c6/Item_EpicAncestralGreatswordShard.png/revision/latest/scale-to-width-down/64?cb=20240508200236",
+   "fr": "Fragments de grande épée ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1571,6 +1749,7 @@
   "Epic Ancestral Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/90/Weapon_EpicAncestralLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508200849",
+   "fr": "Arc long ancestral (épique)",
    "wiki": true,
    "recipes": [
     336
@@ -1580,6 +1759,7 @@
   "Epic Ancestral Longbow Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/df/Item_EpicAncestralLongbowShard.png/revision/latest/scale-to-width-down/64?cb=20240508200341",
+   "fr": "Fragments d’arc long ancestral (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1587,6 +1767,7 @@
   "Epic Ancestral Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1e/Weapon_EpicAncestralMace.png/revision/latest/scale-to-width-down/64?cb=20240508200734",
+   "fr": "Masse ancestrale (épique)",
    "wiki": true,
    "recipes": [
     325
@@ -1596,6 +1777,7 @@
   "Epic Ancestral Mace Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b5/Item_EpicAncestralMaceShard.png/revision/latest/scale-to-width-down/64?cb=20240508200209",
+   "fr": "Fragments de masse ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1603,6 +1785,7 @@
   "Epic Ancestral Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f0/Weapon_EpicAncestralPistols.png/revision/latest/scale-to-width-down/64?cb=20240508200829",
+   "fr": "Pistolets ancestraux (épique)",
    "wiki": true,
    "recipes": [
     334
@@ -1612,6 +1795,7 @@
   "Epic Ancestral Pistols Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c0/Item_EpicAncestralPistolsShard.png/revision/latest/scale-to-width-down/64?cb=20240508200245",
+   "fr": "Fragments de pistolets ancestraux (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1619,6 +1803,7 @@
   "Epic Ancestral Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/31/Weapon_EpicAncestralReaper.png/revision/latest/scale-to-width-down/64?cb=20240508200803",
+   "fr": "Faucheuse ancestrale (épique)",
    "wiki": true,
    "recipes": [
     328
@@ -1628,6 +1813,7 @@
   "Epic Ancestral Reaper Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6b/Item_EpicAncestralReaperShard.png/revision/latest/scale-to-width-down/64?cb=20240508195907",
+   "fr": "Fragments de faucheuse ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1635,6 +1821,7 @@
   "Epic Ancestral Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c5/Weapon_EpicAncestralSlashers.png/revision/latest/scale-to-width-down/64?cb=20240508200810",
+   "fr": "Trancheuses ancestrales (épique)",
    "wiki": true,
    "recipes": [
     327
@@ -1644,6 +1831,7 @@
   "Epic Ancestral Slashers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/91/Item_EpicAncestralSlashersShard.png/revision/latest/scale-to-width-down/64?cb=20240508200228",
+   "fr": "Fragments de trancheuses ancestrales (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1651,6 +1839,7 @@
   "Epic Ancestral Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4c/Weapon_EpicAncestralSpear.png/revision/latest/scale-to-width-down/64?cb=20240508200739",
+   "fr": "Lance ancestrale (épique)",
    "wiki": true,
    "recipes": [
     326
@@ -1660,6 +1849,7 @@
   "Epic Ancestral Spear Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/52/Item_EpicAncestralSpearShard.png/revision/latest/scale-to-width-down/64?cb=20240508200214",
+   "fr": "Fragments de lance ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1667,6 +1857,7 @@
   "Epic Ancestral Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/06/Weapon_EpicAncestralSword.png/revision/latest/scale-to-width-down/64?cb=20240508200656",
+   "fr": "Épée ancestrale (épique)",
    "wiki": true,
    "recipes": [
     323
@@ -1676,6 +1867,7 @@
   "Epic Ancestral Sword Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c2/Item_EpicAncestralSwordShard.png/revision/latest/scale-to-width-down/64?cb=20240508200149",
+   "fr": "Fragments d’épée ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1683,6 +1875,7 @@
   "Epic Ancestral Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/ba/Weapon_EpicAncestralTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195745",
+   "fr": "Lame jumelle ancestrale (épique)",
    "wiki": true,
    "recipes": [
     332
@@ -1692,6 +1885,7 @@
   "Epic Ancestral Twinblade Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/09/Item_EpicAncestralTwinbladeShard.png/revision/latest/scale-to-width-down/64?cb=20250428195740",
+   "fr": "Fragments de lame jumelle ancestrale (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1699,6 +1893,7 @@
   "Epic Ancestral Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/03/Weapon_EpicAncestralWhip.png/revision/latest/scale-to-width-down/64?cb=20240508200901",
+   "fr": "Fouet ancestral (épique)",
    "wiki": true,
    "recipes": [
     330
@@ -1708,6 +1903,7 @@
   "Epic Ancestral Whip Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fc/Item_EpicAncestralWhipShard.png/revision/latest/scale-to-width-down/64?cb=20240508200352",
+   "fr": "Fragments de fouet ancestral (épique)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1715,6 +1911,7 @@
   "Exquisite Heart": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/07/Item_ExquisiteHeart.png/revision/latest/scale-to-width-down/64?cb=20220528211006",
+   "fr": "Cœur exquis",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1722,6 +1919,7 @@
   "Fat Goby": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8a/Item_FatGoby.png/revision/latest/scale-to-width-down/64?cb=20220529093841",
+   "fr": "Gobie gras",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1729,6 +1927,7 @@
   "Fierce Stinger": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/de/Item_FierceStinger.png/revision/latest/scale-to-width-down/64?cb=20220529093842",
+   "fr": "Dard féroce",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1736,6 +1935,7 @@
   "Fire Blossom": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1b/Item_FireBlossom.png/revision/latest/scale-to-width-down/64?cb=20230519053958",
+   "fr": "Fleur de feu",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1743,6 +1943,7 @@
   "Fire Resistance Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4b/Item_FireResistanceBrew.png/revision/latest/scale-to-width-down/64?cb=20220528211106",
+   "fr": "Breuvage de résistance au feu",
    "wiki": true,
    "recipes": [
     4
@@ -1752,6 +1953,7 @@
   "Fish Bone": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a7/Item_Fish_Bone.png/revision/latest/scale-to-width-down/64?cb=20220526212550",
+   "fr": "Arête de poisson",
    "wiki": true,
    "recipes": [
     77,
@@ -1769,6 +1971,7 @@
   "Fishing Pole": {
    "type": "Item",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/01/Item_FishingPole.png/revision/latest/scale-to-width-down/64?cb=20220529101218",
+   "fr": "Canne à pêche",
    "wiki": true,
    "recipes": [
     251
@@ -1778,6 +1981,7 @@
   "Flawless Amethyst": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a9/Item_FlawlessAmethyst.png/revision/latest/scale-to-width-down/64?cb=20230520203222",
+   "fr": "Améthyste sans défaut",
    "wiki": true,
    "recipes": [
     355,
@@ -1789,6 +1993,7 @@
   "Flawless Emerald": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/74/Item_FlawlessEmerald.png/revision/latest/scale-to-width-down/64?cb=20230520203236",
+   "fr": "Émeraude sans défaut",
    "wiki": true,
    "recipes": [
     349,
@@ -1800,6 +2005,7 @@
   "Flawless Miststone": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/89/Item_FlawlessMiststone.png/revision/latest/scale-to-width-down/64?cb=20230520203253",
+   "fr": "Pierre de brume sans défaut",
    "wiki": true,
    "recipes": [
     352,
@@ -1811,6 +2017,7 @@
   "Flawless Ruby": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fb/Item_FlawlessRuby.png/revision/latest/scale-to-width-down/64?cb=20230520203116",
+   "fr": "Rubis sans défaut",
    "wiki": true,
    "recipes": [
     343,
@@ -1822,6 +2029,7 @@
   "Flawless Sapphire": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/96/Item_FlawlessSapphire.png/revision/latest/scale-to-width-down/64?cb=20230520203151",
+   "fr": "Saphir sans défaut",
    "wiki": true,
    "recipes": [
     340,
@@ -1833,6 +2041,7 @@
   "Flawless Topaz": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cc/Item_FlawlessTopaz.png/revision/latest/scale-to-width-down/64?cb=20230520203132",
+   "fr": "Topaze sans défaut",
    "wiki": true,
    "recipes": [
     346,
@@ -1844,6 +2053,7 @@
   "Frost Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cf/Item_FrostCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171409",
+   "fr": "Enduit de givre",
    "wiki": true,
    "recipes": [
     33
@@ -1853,6 +2063,7 @@
   "Frost Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/58/Jewel_FrostTier1.png/revision/latest/scale-to-width-down/64?cb=20230521034233",
+   "fr": "Joyau glacé de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1860,6 +2071,7 @@
   "Frost Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9c/Jewel_FrostTier2.png/revision/latest/scale-to-width-down/64?cb=20230521034311",
+   "fr": "Joyau glacé de rang 2",
    "wiki": true,
    "recipes": [
     452
@@ -1869,6 +2081,7 @@
   "Frost Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5c/Jewel_FrostTier3.png/revision/latest/scale-to-width-down/64?cb=20230521034329",
+   "fr": "Joyau glacé de rang 3",
    "wiki": true,
    "recipes": [
     477
@@ -1878,6 +2091,7 @@
   "Frost Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ab/Jewel_FrostTier4.png/revision/latest/scale-to-width-down/64?cb=20230521034346",
+   "fr": "Joyau glacé de rang 4",
    "wiki": true,
    "recipes": [
     437
@@ -1887,6 +2101,7 @@
   "Garlic Resistance Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Item_GarlicResistancePotion.png/revision/latest/scale-to-width-down/64?cb=20220528211006",
+   "fr": "Potion de résistance à l’ail",
    "wiki": true,
    "recipes": [
     14
@@ -1896,6 +2111,7 @@
   "Gem Dust": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/88/Item_GemDust.png/revision/latest/scale-to-width-down/64?cb=20230520203550",
+   "fr": "Poussière de gemme",
    "wiki": true,
    "recipes": [
     278,
@@ -1946,6 +2162,7 @@
   "Ghost Crystal": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/23/Item_GhostCrystal.png/revision/latest/scale-to-width-down/64?cb=20220529095507",
+   "fr": "Cristal fantôme",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -1953,6 +2170,7 @@
   "Ghost Shroom": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/24/Item_GhostShroom.png/revision/latest/scale-to-width-down/64?cb=20230519054218",
+   "fr": "Champignon fantôme",
    "wiki": true,
    "recipes": [
     391
@@ -1962,6 +2180,7 @@
   "Ghost Yarn": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/01/Item_GhostYarn.png/revision/latest/scale-to-width-down/64?cb=20220529095508",
+   "fr": "Fil fantôme",
    "wiki": true,
    "recipes": [
     75
@@ -1971,6 +2190,7 @@
   "Ghoul": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b8/Item_Ghoul.png/revision/latest/scale-to-width-down/64?cb=20230521235936",
+   "fr": "Goule",
    "wiki": true,
    "recipes": [
     394
@@ -1980,6 +2200,7 @@
   "Giant Rat": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fe/Item_Giant_Rat.png/revision/latest/scale-to-width-down/64?cb=20230517220909",
+   "fr": "Rat géant",
    "wiki": true,
    "recipes": [
     337
@@ -1989,6 +2210,7 @@
   "Glass": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b7/Item_Glass.png/revision/latest/scale-to-width-down/64?cb=20220603080231",
+   "fr": "Verre",
    "wiki": true,
    "recipes": [
     47
@@ -1998,6 +2220,7 @@
   "Gloom Wood": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/eb/Item_GloomWood.png/revision/latest/scale-to-width-down/64?cb=20230517165345",
+   "fr": "Bois sinistre",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2005,6 +2228,7 @@
   "Gold Ingot": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/18/Item_GoldIngot.png/revision/latest/scale-to-width-down/64?cb=20220529095508",
+   "fr": "Lingot d’or",
    "wiki": true,
    "recipes": [
     51
@@ -2014,6 +2238,7 @@
   "Gold Jewelry": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f4/Item_GoldJewelry.png/revision/latest/scale-to-width-down/64?cb=20220529095508",
+   "fr": "Bijou en or",
    "wiki": true,
    "recipes": [
     430,
@@ -2024,6 +2249,7 @@
   "Golden Castle Key": {
    "type": "Stackable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d2/Item_GoldenCastleKey.png/revision/latest/scale-to-width-down/64?cb=20220528211354",
+   "fr": "Clé de château en or",
    "wiki": true,
    "recipes": [
     133
@@ -2033,6 +2259,7 @@
   "Golden River Bass": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3a/Item_GoldenRiverBass.png/revision/latest/scale-to-width-down/64?cb=20220529093841",
+   "fr": "Bar des rivières doré",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2040,6 +2267,7 @@
   "Goldsun Coin": {
    "type": "Coin",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Item_GoldsunCoin.png/revision/latest/scale-to-width-down/64?cb=20260303162353",
+   "fr": "Pièce du soleil d’or",
    "wiki": true,
    "recipes": [
     360
@@ -2049,6 +2277,7 @@
   "Grave Dust": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/59/Item_GraveDust.png/revision/latest/scale-to-width-down/64?cb=20220529094801",
+   "fr": "Poussière de tombe",
    "wiki": true,
    "recipes": [
     55
@@ -2058,6 +2287,7 @@
   "Gravedigger Ring": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e2/Jewelry_GravediggerRing.png/revision/latest/scale-to-width-down/64?cb=20230521032802",
+   "fr": "Anneau de pilleur de tombes",
    "wiki": true,
    "recipes": [
     136
@@ -2067,6 +2297,7 @@
   "Greater Blood Essence": {
    "type": "Blood essence",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4b/Item_GreaterBloodEssence.png/revision/latest/scale-to-width-down/64?cb=20230529043406",
+   "fr": "Essence sanguine supérieure",
    "wiki": true,
    "recipes": [
     88,
@@ -2077,6 +2308,7 @@
   "Greater Stygian Shard": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/98/Item_GreaterStygianShard.png/revision/latest/scale-to-width-down/64?cb=20260303164718",
+   "fr": "Fragment stygien supérieur",
    "wiki": true,
    "recipes": [
     361,
@@ -2087,6 +2319,7 @@
   "Grim Knight Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e2/Armour_GrimKnightBoots.png/revision/latest/scale-to-width-down/64?cb=20240508161335",
+   "fr": "Bottes sinistres de chevalier",
    "wiki": true,
    "recipes": [
     385
@@ -2096,6 +2329,7 @@
   "Grim Knight Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fe/Armour_GrimKnightChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508161257",
+   "fr": "Plastron sinistre de chevalier",
    "wiki": true,
    "recipes": [
     383
@@ -2105,6 +2339,7 @@
   "Grim Knight Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/01/Armour_GrimKnightGloves.png/revision/latest/scale-to-width-down/64?cb=20240508161344",
+   "fr": "Gants sinistres de chevalier",
    "wiki": true,
    "recipes": [
     386
@@ -2114,6 +2349,7 @@
   "Grim Knight Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9b/Armour_GrimKnightLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508161313",
+   "fr": "Jambières sinistres de chevalier",
    "wiki": true,
    "recipes": [
     384
@@ -2123,6 +2359,7 @@
   "Grim Ranger Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2b/Armour_GrimRangerBoots.png/revision/latest/scale-to-width-down/64?cb=20240510174959",
+   "fr": "Bottes sinistres de ranger",
    "wiki": true,
    "recipes": [
     231
@@ -2132,6 +2369,7 @@
   "Grim Ranger Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/90/Armour_GrimRangerGloves.png/revision/latest/scale-to-width-down/64?cb=20240510151045",
+   "fr": "Gants sinistres de ranger",
    "wiki": true,
    "recipes": [
     230
@@ -2141,6 +2379,7 @@
   "Grim Ranger Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c6/Armour_GrimRangerLeggings.png/revision/latest/scale-to-width-down/64?cb=20240510174935",
+   "fr": "Jambières sinistres de ranger",
    "wiki": true,
    "recipes": [
     229
@@ -2150,6 +2389,7 @@
   "Grim Ranger Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bc/Armour_GrimRangerVest.png/revision/latest/scale-to-width-down/64?cb=20240510174916",
+   "fr": "Veste sinistre de ranger",
    "wiki": true,
    "recipes": [
     228
@@ -2159,6 +2399,7 @@
   "Hallow Wood": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0f/Item_HallowWood.png/revision/latest/scale-to-width-down/64?cb=20230517165321",
+   "fr": "Bois sacré",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2166,6 +2407,7 @@
   "Hand of Winter": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cb/Weapon_HandofWinter.png/revision/latest/scale-to-width-down/64?cb=20250504012933",
+   "fr": "Battoir hivernal",
    "wiki": true,
    "recipes": [
     439
@@ -2175,6 +2417,7 @@
   "Hand of Winter Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/79/Item_AncestralMaceShards.png/revision/latest/scale-to-width-down/64?cb=20230531040950",
+   "fr": "Fragment : Battoir hivernal",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2182,6 +2425,7 @@
   "Hell's Clarion": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/83/Item_HellsClarion.png/revision/latest/scale-to-width-down/64?cb=20230519054054",
+   "fr": "Œillet infernal",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2189,6 +2433,7 @@
   "Hollowfang Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/83/Armour_HollowfangBoots.png/revision/latest/scale-to-width-down/64?cb=20220528174544",
+   "fr": "Bottes de canine-creuse",
    "wiki": true,
    "recipes": [
     275,
@@ -2199,6 +2444,7 @@
   "Hollowfang Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c3/Armour_HollowfangChestguard.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Plastron de canine creuse",
    "wiki": true,
    "recipes": [
     273,
@@ -2209,6 +2455,7 @@
   "Hollowfang Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cb/Armour_HollowfangGloves.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Gants de canine creuse",
    "wiki": true,
    "recipes": [
     276,
@@ -2219,6 +2466,7 @@
   "Hollowfang Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/35/Armour_HollowfangLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Jambières de canine-creuse",
    "wiki": true,
    "recipes": [
     274,
@@ -2229,6 +2477,7 @@
   "Holy Resistance Flask": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bd/Item_HolyResistanceFlask.png/revision/latest/scale-to-width-down/64?cb=20230521025741",
+   "fr": "Flasque de résistance au sacré",
    "wiki": true,
    "recipes": [
     20
@@ -2238,6 +2487,7 @@
   "Holy Resistance Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6a/Item_HolyResistancePotion.png/revision/latest/scale-to-width-down/64?cb=20220528211006",
+   "fr": "Potion de résistance au sacré",
    "wiki": true,
    "recipes": [
     13
@@ -2247,6 +2497,7 @@
   "Hunter's Cloak": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/89/Cloak_HuntersCloak.png/revision/latest/scale-to-width-down/64?cb=20220528180534",
+   "fr": "Cape de chasseur",
    "wiki": true,
    "recipes": [
     270
@@ -2256,6 +2507,7 @@
   "Illusion Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e6/Item_IllusionCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171415",
+   "fr": "Enduit d’illusion",
    "wiki": true,
    "recipes": [
     34
@@ -2265,6 +2517,7 @@
   "Illusion Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8d/Jewel_IllusionTier1.png/revision/latest/scale-to-width-down/64?cb=20230521034640",
+   "fr": "Joyau illusoire de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2272,6 +2525,7 @@
   "Illusion Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cb/Jewel_IllusionTier2.png/revision/latest/scale-to-width-down/64?cb=20230521034657",
+   "fr": "Joyau illusoire de rang 2",
    "wiki": true,
    "recipes": [
     451
@@ -2281,6 +2535,7 @@
   "Illusion Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Jewel_IllusionTier3.png/revision/latest/scale-to-width-down/64?cb=20230521034711",
+   "fr": "Joyau illusoire de rang 3",
    "wiki": true,
    "recipes": [
     476
@@ -2290,6 +2545,7 @@
   "Illusion Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4a/Jewel_IllusionTier4.png/revision/latest/scale-to-width-down/64?cb=20230521034726",
+   "fr": "Joyau illusoire de rang 4",
    "wiki": true,
    "recipes": [
     436
@@ -2299,6 +2555,7 @@
   "Immortal King's Cloak": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Cloak_ImmortalKingsCloak.png/revision/latest/scale-to-width-down/64?cb=20220528192635",
+   "fr": "Cape de souverain immortel",
    "wiki": true,
    "recipes": [
     271
@@ -2308,6 +2565,7 @@
   "Immortal King's Drape": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/69/Cloak_ImmortalKingsDrape.png/revision/latest/scale-to-width-down/64?cb=20220528192636",
+   "fr": "Soubreveste de souverain immortel",
    "wiki": true,
    "recipes": [
     239
@@ -2317,6 +2575,7 @@
   "Immortal King's Greathelm": {
    "type": "Head",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6d/Head_ImmortalKingsGreathelm.png/revision/latest/scale-to-width-down/64?cb=20220529085232",
+   "fr": "Grand heaume de souverain immortel",
    "wiki": true,
    "recipes": [
     212
@@ -2326,6 +2585,7 @@
   "Immortal King's Mantle": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Cloak_ImmortalKingsMantle.png/revision/latest/scale-to-width-down/64?cb=20220528192636",
+   "fr": "Manteau du souverain immortel",
    "wiki": true,
    "recipes": [
     468
@@ -2335,6 +2595,7 @@
   "Iron Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/87/Weapon_IronAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171128",
+   "fr": "Haches de fer",
    "wiki": true,
    "recipes": [
     455
@@ -2344,6 +2605,7 @@
   "Iron Castle Key": {
    "type": "Stackable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5f/Item_IronCastleKey.png/revision/latest/scale-to-width-down/64?cb=20220528211353",
+   "fr": "Clé de château en fer",
    "wiki": true,
    "recipes": [
     378
@@ -2353,6 +2615,7 @@
   "Iron Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Weapon_IronClaws.png/revision/latest/scale-to-width-down/64?cb=20250428195924",
+   "fr": "Griffes de fer",
    "wiki": true,
    "recipes": [
     465
@@ -2362,6 +2625,7 @@
   "Iron Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f2/Weapon_IronCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171226",
+   "fr": "Arbalète de fer",
    "wiki": true,
    "recipes": [
     460
@@ -2371,6 +2635,7 @@
   "Iron Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e4/Weapon_IronDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428181738",
+   "fr": "Dagues de fer",
    "wiki": true,
    "recipes": [
     463
@@ -2380,6 +2645,7 @@
   "Iron Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8b/Weapon_IronGreatsword.png/revision/latest/scale-to-width-down/64?cb=20230521081956",
+   "fr": "Grande épée de fer",
    "wiki": true,
    "recipes": [
     462
@@ -2389,6 +2655,7 @@
   "Iron Ingot": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/12/Item_IronIngot.png/revision/latest/scale-to-width-down/64?cb=20220529095126",
+   "fr": "Lingot de fer",
    "wiki": true,
    "recipes": [
     46,
@@ -2399,6 +2666,7 @@
   "Iron Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0c/Weapon_IronLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205545",
+   "fr": "Arc long de fer",
    "wiki": true,
    "recipes": [
     461
@@ -2408,6 +2676,7 @@
   "Iron Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7b/Weapon_IronMace.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Masse de fer",
    "wiki": true,
    "recipes": [
     456
@@ -2417,6 +2686,7 @@
   "Iron Ore": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/ba/Item_IronOre.png/revision/latest/scale-to-width-down/64?cb=20220529095126",
+   "fr": "Minerai de fer",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2424,6 +2694,7 @@
   "Iron Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d9/Weapon_IronPistols.png/revision/latest/scale-to-width-down/64?cb=20230521082057",
+   "fr": "Pistolets en fer",
    "wiki": true,
    "recipes": [
     466
@@ -2433,6 +2704,7 @@
   "Iron Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/37/Weapon_IronReaper.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Faucheuse de fer",
    "wiki": true,
    "recipes": [
     458
@@ -2442,6 +2714,7 @@
   "Iron Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/dd/Weapon_IronSlashers.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Trancheuses de fer",
    "wiki": true,
    "recipes": [
     459
@@ -2451,6 +2724,7 @@
   "Iron Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f9/Weapon_IronSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Lance de fer",
    "wiki": true,
    "recipes": [
     457
@@ -2460,6 +2734,7 @@
   "Iron Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/be/Weapon_IronSword.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Épée de fer",
    "wiki": true,
    "recipes": [
     454
@@ -2469,6 +2744,7 @@
   "Iron Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Weapon_IronTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195634",
+   "fr": "Lame jumelle de fer",
    "wiki": true,
    "recipes": [
     464
@@ -2478,6 +2754,7 @@
   "Iron Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f7/Weapon_IronWhip.png/revision/latest/scale-to-width-down/64?cb=20240508142728",
+   "fr": "Fouet de fer",
    "wiki": true,
    "recipes": [
     467
@@ -2487,6 +2764,7 @@
   "Irradiant Gruel": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Item_IrradiantGruel.png/revision/latest/scale-to-width-down/64?cb=20230518024625",
+   "fr": "Gruau mutagène",
    "wiki": true,
    "recipes": [
     19
@@ -2496,6 +2774,7 @@
   "Leather": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/14/Item_Leather.png/revision/latest/scale-to-width-down/64?cb=20220526220300",
+   "fr": "Cuir",
    "wiki": true,
    "recipes": [
     39
@@ -2505,6 +2784,7 @@
   "Leather Bag": {
    "type": "Bag",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7b/Bag_LeatherBag.png/revision/latest/scale-to-width-down/64?cb=20240508134720",
+   "fr": "Sac en cuir",
    "wiki": true,
    "recipes": [
     252
@@ -2514,6 +2794,7 @@
   "Legendary Ancestral Greatsword Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e2/Item_AncestralGreatswordShards.png/revision/latest/scale-to-width-down/64?cb=20230531041138",
+   "fr": "Fragments de grande épée ancestrale (légendaire)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2521,6 +2802,7 @@
   "Lesser Blood Soul": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c1/Item_LesserBloodSoul.png/revision/latest/scale-to-width-down/64?cb=20250504012430",
+   "fr": "Âme sanguine mineure",
    "wiki": true,
    "recipes": [
     517
@@ -2530,6 +2812,7 @@
   "Lumberjack's Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9d/Weapon_LumberjacksAxes.png/revision/latest/scale-to-width-down/64?cb=20220529092534",
+   "fr": "Haches de bûcheron",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2537,6 +2820,7 @@
   "Major Explosive Box": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d2/Item_MajorExplosiveBox.png/revision/latest/scale-to-width-down/64?cb=20230520205821",
+   "fr": "Boîte d’explosifs majeurs",
    "wiki": true,
    "recipes": [
     18
@@ -2546,6 +2830,7 @@
   "Maleficer Scholar Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/76/Armour_MaleficerScholarBoots.png/revision/latest/scale-to-width-down/64?cb=20240508161551",
+   "fr": "Bottes d’érudit maléfique",
    "wiki": true,
    "recipes": [
     389
@@ -2555,6 +2840,7 @@
   "Maleficer Scholar Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/ff/Armour_MaleficerScholarChestguard.png/revision/latest/scale-to-width-down/64?cb=20240508161531",
+   "fr": "Plastron d’érudit maléfique",
    "wiki": true,
    "recipes": [
     387
@@ -2564,6 +2850,7 @@
   "Maleficer Scholar Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/dc/Armour_MaleficerScholarGloves.png/revision/latest/scale-to-width-down/64?cb=20240508161605",
+   "fr": "Gants d’érudit maléfique",
    "wiki": true,
    "recipes": [
     390
@@ -2573,6 +2860,7 @@
   "Maleficer Scholar Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ed/Armour_MaleficerScholarLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508161538",
+   "fr": "Jambières d’érudit maléfique",
    "wiki": true,
    "recipes": [
     388
@@ -2582,6 +2870,7 @@
   "Marauder Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c4/Armour_MarauderBoots.png/revision/latest/scale-to-width-down/64?cb=20240508155321",
+   "fr": "Bottes de maraudeur",
    "wiki": true,
    "recipes": [
     227
@@ -2591,6 +2880,7 @@
   "Marauder Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/00/Armour_MarauderGloves.png/revision/latest/scale-to-width-down/64?cb=20240508155332",
+   "fr": "Gants de maraudeur",
    "wiki": true,
    "recipes": [
     226
@@ -2600,6 +2890,7 @@
   "Marauder Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/54/Armour_MarauderLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508155311",
+   "fr": "Jambières de maraudeur",
    "wiki": true,
    "recipes": [
     225
@@ -2609,6 +2900,7 @@
   "Marauder Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/51/Armour_MarauderVest.png/revision/latest/scale-to-width-down/64?cb=20240508155239",
+   "fr": "Veste de maraudeur",
    "wiki": true,
    "recipes": [
     224
@@ -2618,6 +2910,7 @@
   "Merciless Copper Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/de/Weapon_MercilessCopperAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171338",
+   "fr": "Haches de cuivre impitoyable",
    "wiki": true,
    "recipes": [
     264,
@@ -2628,6 +2921,7 @@
   "Merciless Copper Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/58/Weapon_MercilessCopperCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Arbalète en cuivre impitoyable",
    "wiki": true,
    "recipes": [
     266
@@ -2637,6 +2931,7 @@
   "Merciless Copper Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/64/Weapon_MercilessCopperLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205449",
+   "fr": "Arc long de cuivre impitoyable",
    "wiki": true,
    "recipes": [
     287,
@@ -2647,6 +2942,7 @@
   "Merciless Copper Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/18/Weapon_MercilessCopperMace.png/revision/latest/scale-to-width-down/64?cb=20220528171514",
+   "fr": "Masse de cuivre impitoyable",
    "wiki": true,
    "recipes": [
     262,
@@ -2657,6 +2953,7 @@
   "Merciless Copper Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/12/Weapon_MercilessCopperSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Lance de cuivre impitoyable",
    "wiki": true,
    "recipes": [
     258,
@@ -2667,6 +2964,7 @@
   "Merciless Copper Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3c/Weapon_MercilessCopperSword.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Épée de cuivre impitoyable",
    "wiki": true,
    "recipes": [
     260,
@@ -2677,6 +2975,7 @@
   "Merciless Hollowfang Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fb/Armour_MercilessHollowfangBoots.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Bottes de canine-creuse impitoyable",
    "wiki": true,
    "recipes": [
     500
@@ -2686,6 +2985,7 @@
   "Merciless Hollowfang Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/aa/Armour_MercilessHollowfangGloves.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Gants de canine creuse impitoyable",
    "wiki": true,
    "recipes": [
     501
@@ -2695,6 +2995,7 @@
   "Merciless Hollowfang Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ab/Armour_MercilessHollowfangLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Jambières de canine creuse impitoyable",
    "wiki": true,
    "recipes": [
     499
@@ -2704,6 +3005,7 @@
   "Merciless Hollowfang Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/81/Armour_MercilessHollowfangVest.png/revision/latest/scale-to-width-down/64?cb=20220528174545",
+   "fr": "Plastron de canine creuse impitoyable",
    "wiki": true,
    "recipes": [
     498
@@ -2713,6 +3015,7 @@
   "Merciless Iron Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Weapon_MercilessIronAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171634",
+   "fr": "Haches de fer impitoyables",
    "wiki": true,
    "recipes": [
     402
@@ -2722,6 +3025,7 @@
   "Merciless Iron Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2a/Weapon_MercilessIronClaws.png/revision/latest/scale-to-width-down/64?cb=20250428195929",
+   "fr": "Griffes de fer impitoyables",
    "wiki": true,
    "recipes": [
     412
@@ -2731,6 +3035,7 @@
   "Merciless Iron Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Weapon_MercilessIronCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Arbalète de fer impitoyable",
    "wiki": true,
    "recipes": [
     470,
@@ -2741,6 +3046,7 @@
   "Merciless Iron Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c6/Weapon_MercilessIronDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428181745",
+   "fr": "Dagues de fer impitoyables",
    "wiki": true,
    "recipes": [
     410
@@ -2750,6 +3056,7 @@
   "Merciless Iron Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Weapon_MercilessIronGreatsword.png/revision/latest/scale-to-width-down/64?cb=20230521082159",
+   "fr": "Grande épée de fer impitoyable",
    "wiki": true,
    "recipes": [
     409
@@ -2759,6 +3066,7 @@
   "Merciless Iron Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2c/Weapon_MercilessIronLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205551",
+   "fr": "Arc long de fer impitoyable",
    "wiki": true,
    "recipes": [
     502,
@@ -2770,6 +3078,7 @@
   "Merciless Iron Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/96/Weapon_MercilessIronMace.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Masse de fer impitoyable",
    "wiki": true,
    "recipes": [
     403,
@@ -2780,6 +3089,7 @@
   "Merciless Iron Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/50/Weapon_MercilessIronPistols.png/revision/latest/scale-to-width-down/64?cb=20230521082224",
+   "fr": "Pistolets en fer impitoyables",
    "wiki": true,
    "recipes": [
     413
@@ -2789,6 +3099,7 @@
   "Merciless Iron Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/62/Weapon_MercilessIronReaper.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Faucheuse de fer impitoyable",
    "wiki": true,
    "recipes": [
     405
@@ -2798,6 +3109,7 @@
   "Merciless Iron Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/56/Weapon_MercilessIronSlashers.png/revision/latest/scale-to-width-down/64?cb=20220528171635",
+   "fr": "Trancheuses de fer impitoyables",
    "wiki": true,
    "recipes": [
     406
@@ -2807,6 +3119,7 @@
   "Merciless Iron Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/63/Weapon_MercilessIronSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171515",
+   "fr": "Lance de fer impitoyable",
    "wiki": true,
    "recipes": [
     404,
@@ -2817,6 +3130,7 @@
   "Merciless Iron Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/04/Weapon_MercilessIronSword.png/revision/latest/scale-to-width-down/64?cb=20220528171635",
+   "fr": "Épée de fer impitoyable",
    "wiki": true,
    "recipes": [
     401
@@ -2826,6 +3140,7 @@
   "Merciless Iron Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ed/Weapon_MercilessIronTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195640",
+   "fr": "Lame jumelle de fer impitoyable",
    "wiki": true,
    "recipes": [
     411
@@ -2835,6 +3150,7 @@
   "Merciless Iron Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/19/Weapon_MercilessIronWhip.png/revision/latest/scale-to-width-down/64?cb=20240508142743",
+   "fr": "Fouet de fer impitoyable",
    "wiki": true,
    "recipes": [
     414
@@ -2844,6 +3160,7 @@
   "Midnight Ball Gown": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ec/Armour_MidnightBallGown.png/revision/latest/scale-to-width-down/64?cb=20240508154751",
+   "fr": "Robe du bal de minuit",
    "wiki": true,
    "recipes": [
     242
@@ -2853,6 +3170,7 @@
   "Midnight Nobleman Pants": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9d/Armour_MidnightNoblemanPants.png/revision/latest/scale-to-width-down/64?cb=20240508154831",
+   "fr": "Pantalon de noble de minuit",
    "wiki": true,
    "recipes": [
     244
@@ -2862,6 +3180,7 @@
   "Midnight Nobleman Suit": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/36/Armour_MidnightNoblemanSuit.png/revision/latest/scale-to-width-down/64?cb=20240508154805",
+   "fr": "Costume de noble de minuit",
    "wiki": true,
    "recipes": [
     243
@@ -2871,6 +3190,7 @@
   "Miner's Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/ce/Weapon_MinersMace.png/revision/latest/scale-to-width-down/64?cb=20220529092535",
+   "fr": "Masse de mineur",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2878,6 +3198,7 @@
   "Minor Explosive Box": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/60/Item_MinorExplosiveBox.png/revision/latest/scale-to-width-down/64?cb=20230520205801",
+   "fr": "Boîte d’explosifs mineurs",
    "wiki": true,
    "recipes": [
     10
@@ -2887,6 +3208,7 @@
   "Minor Garlic Resistance Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b0/Item_MinorGarlicResistanceBrew.png/revision/latest/scale-to-width-down/64?cb=20220528211006",
+   "fr": "Breuvage de résistance à l’ail mineure",
    "wiki": true,
    "recipes": [
     5
@@ -2896,6 +3218,7 @@
   "Minor Sun Resistance Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2e/Item_MinorSunResistanceBrew.png/revision/latest/scale-to-width-down/64?cb=20220528211220",
+   "fr": "Breuvage de résistance au soleil mineure",
    "wiki": true,
    "recipes": [
     6
@@ -2905,6 +3228,7 @@
   "Mortira's Lament": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d2/Weapon_MortirasLament.png/revision/latest/scale-to-width-down/64?cb=20250504013044",
+   "fr": "Lamentation de Mortira",
    "wiki": true,
    "recipes": [
     490
@@ -2914,6 +3238,7 @@
   "Mortira's Lament Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c5/Item_AncestralReaperShards.png/revision/latest/scale-to-width-down/64?cb=20230531041122",
+   "fr": "Fragment : Lamentation de Mortira",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2921,6 +3246,7 @@
   "Mosquito": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/69/Item_Mosquito.png/revision/latest/scale-to-width-down/64?cb=20230521191028",
+   "fr": "Moustique",
    "wiki": true,
    "recipes": [
     339
@@ -2930,6 +3256,7 @@
   "Mountain Peak Bag": {
    "type": "Bag",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/84/Bag_MountainPeakBag.png/revision/latest/scale-to-width-down/64?cb=20240508134830",
+   "fr": "Sac de randonnée",
    "wiki": true,
    "recipes": [
     484
@@ -2939,6 +3266,7 @@
   "Mourning Lily": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cc/Item_MourningLily.png/revision/latest/scale-to-width-down/64?cb=20230519054126",
+   "fr": "Lys éploré",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -2946,6 +3274,7 @@
   "Mutant Grease": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6c/Item_MutantGrease.png/revision/latest/scale-to-width-down/64?cb=20230517170450",
+   "fr": "Graisse de mutant",
    "wiki": true,
    "recipes": [
     393
@@ -2955,6 +3284,7 @@
   "Mutated Rat": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cb/Item_MutatedRat.png/revision/latest/scale-to-width-down/64?cb=20230517220539",
+   "fr": "Rat mutant",
    "wiki": true,
    "recipes": [
     396
@@ -2964,6 +3294,7 @@
   "Nightstalker Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1e/Armour_NightstalkerBoots.png/revision/latest/scale-to-width-down/64?cb=20220528174039",
+   "fr": "Bottes d’arpenteur nocturne",
    "wiki": true,
    "recipes": [
     256,
@@ -2974,6 +3305,7 @@
   "Nightstalker Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ac/Armour_NightstalkerGloves.png/revision/latest/scale-to-width-down/64?cb=20220528174040",
+   "fr": "Gants d’arpenteur nocturne",
    "wiki": true,
    "recipes": [
     255,
@@ -2984,6 +3316,7 @@
   "Nightstalker Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5e/Armour_NightstalkerLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528174040",
+   "fr": "Jambières d’arpenteur nocturne",
    "wiki": true,
    "recipes": [
     254,
@@ -2994,6 +3327,7 @@
   "Nightstalker Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8e/Armour_NightstalkerChestguard.png/revision/latest/scale-to-width-down/64?cb=20220528174040",
+   "fr": "Veste d’arpenteur nocturne",
    "wiki": true,
    "recipes": [
     253,
@@ -3004,6 +3338,7 @@
   "Oaksong": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c2/Weapon_Oaksong.png/revision/latest/scale-to-width-down/64?cb=20250504013402",
+   "fr": "Aria sylvestre",
    "wiki": true,
    "recipes": [
     497
@@ -3013,6 +3348,7 @@
   "Oaksong Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/71/Item_LegendaryAncestralLongbowShard.png/revision/latest/scale-to-width-down/64?cb=20240512020250",
+   "fr": "Fragment : Aria sylvestre",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3020,6 +3356,7 @@
   "Obsidian": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a7/Item_Obsidian.png/revision/latest/scale-to-width-down/64?cb=20240508140330",
+   "fr": "Obsidienne",
    "wiki": true,
    "recipes": [
     362,
@@ -3030,6 +3367,7 @@
   "Oil": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c3/Item_Oil.png/revision/latest/scale-to-width-down/64?cb=20220529094654",
+   "fr": "Huile",
    "wiki": true,
    "recipes": [
     77,
@@ -3048,6 +3386,7 @@
   "Onyx Tear": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0d/Item_OnyxTear.png/revision/latest/scale-to-width-down/64?cb=20230517172518",
+   "fr": "Larme d’onyx",
    "wiki": true,
    "recipes": [
     104
@@ -3057,6 +3396,7 @@
   "Opulent Night Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/64/Armour_OpulentNightLeggings.png/revision/latest/scale-to-width-down/64?cb=20250430093415",
+   "fr": "Jambières Nuit d’opulence",
    "wiki": true,
    "recipes": [
     511
@@ -3066,6 +3406,7 @@
   "Opulent Night Raiment": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/52/Armour_OpulentNightRaiment.png/revision/latest/scale-to-width-down/64?cb=20250430093403",
+   "fr": "Habit Nuit d’opulence",
    "wiki": true,
    "recipes": [
     510
@@ -3075,6 +3416,7 @@
   "Opulent Night Sabatons": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b6/Armour_OpulentNightSabatons.png/revision/latest/scale-to-width-down/64?cb=20250430093355",
+   "fr": "Solerets Nuit d’opulence",
    "wiki": true,
    "recipes": [
     513
@@ -3084,6 +3426,7 @@
   "Opulent Night Vambraces": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/61/Armour_OpulentNightVambraces.png/revision/latest/scale-to-width-down/64?cb=20250430093408",
+   "fr": "Brassards Nuit d’opulence",
    "wiki": true,
    "recipes": [
     512
@@ -3093,6 +3436,7 @@
   "Opulent Night Visage": {
    "type": "Head",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3c/Head_OpulentNightVisage.png/revision/latest/scale-to-width-down/64?cb=20250430093421",
+   "fr": "Visage Nuit d’opulence",
    "wiki": true,
    "recipes": [
     509
@@ -3102,6 +3446,7 @@
   "Painting Frame": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/31/Item_PaintingFrame.png/revision/latest/scale-to-width-down/64?cb=20220529095040",
+   "fr": "Cadre de tableau",
    "wiki": true,
    "recipes": [
     507
@@ -3111,6 +3456,7 @@
   "Paper": {
    "type": "Knowledge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/45/Item_Paper.png/revision/latest/scale-to-width-down/64?cb=20220526220301",
+   "fr": "Papier",
    "wiki": true,
    "recipes": [
     505,
@@ -3121,6 +3467,7 @@
   "Pendant of the Dawnrunner": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/99/Jewelry_PendantoftheDawnrunner.png/revision/latest/scale-to-width-down/64?cb=20230521033253",
+   "fr": "Pendentif du coureur de l’aube",
    "wiki": true,
    "recipes": [
     146,
@@ -3131,6 +3478,7 @@
   "Pendant of the Duskwatcher": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/91/Jewelry_PendantoftheDuskwatcher.png/revision/latest/scale-to-width-down/64?cb=20230521033338",
+   "fr": "Pendentif de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     149
@@ -3140,6 +3488,7 @@
   "Pendant of the Sorcerer": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8f/Jewelry_PendantoftheSorcerer.png/revision/latest/scale-to-width-down/64?cb=20230521033240",
+   "fr": "Pendentif du sorcier",
    "wiki": true,
    "recipes": [
     145
@@ -3149,6 +3498,7 @@
   "Pendant of the Spellweaver": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_PendantoftheSpellweaver.png/revision/latest/scale-to-width-down/64?cb=20230521033327",
+   "fr": "Pendentif du tisseur de sorts",
    "wiki": true,
    "recipes": [
     147
@@ -3158,6 +3508,7 @@
   "Pendant of the Warlock": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/31/Jewelry_PendantoftheWarlock.png/revision/latest/scale-to-width-down/64?cb=20230521033230",
+   "fr": "Pendentif du mage",
    "wiki": true,
    "recipes": [
     148
@@ -3167,6 +3518,7 @@
   "Pendant of the Warrior": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ee/Jewelry_PendantoftheWarrior.png/revision/latest/scale-to-width-down/64?cb=20230521033217",
+   "fr": "Pendentif du guerrier",
    "wiki": true,
    "recipes": [
     144
@@ -3176,6 +3528,7 @@
   "Phantom's Veil": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fb/Cloak_PhantomsVeil.png/revision/latest/scale-to-width-down/64?cb=20220528180535",
+   "fr": "Voile de fantôme",
    "wiki": true,
    "recipes": [
     508
@@ -3185,6 +3538,7 @@
   "Plague Brier": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d6/Item_PlagueBrier.png/revision/latest/scale-to-width-down/64?cb=20230517165742",
+   "fr": "Églantier pestilentiel",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3192,6 +3546,7 @@
   "Plague Chemist's Saddle": {
    "type": "Saddle",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Item_PlagueChemist%27sSaddle.png/revision/latest/scale-to-width-down/64?cb=20230521030907",
+   "fr": "Selle de chimiste de la pestilence",
    "wiki": true,
    "recipes": [
     446
@@ -3201,6 +3556,7 @@
   "Plague Doctor Mask": {
    "type": "Head",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bc/Head_PlagueDoctorMask.png/revision/latest/scale-to-width-down/64?cb=20230531031241",
+   "fr": "Masque de médecin de peste",
    "wiki": true,
    "recipes": [
     213
@@ -3210,6 +3566,7 @@
   "Plank": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d8/Item_Plank.png/revision/latest/scale-to-width-down/64?cb=20220529095021",
+   "fr": "Planche",
    "wiki": true,
    "recipes": [
     514,
@@ -3223,6 +3580,7 @@
   "Plant Fibre": {
    "type": "Herb",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/31/Item_Plant_Fibre.png/revision/latest/scale-to-width-down/64?cb=20220526205933",
+   "fr": "Fibre végétale",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3230,6 +3588,7 @@
   "Plated Boneguard Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e2/Armour_PlatedBoneguardBoots.png/revision/latest/scale-to-width-down/64?cb=20220528173422",
+   "fr": "Bottes d’ossadure renforcées",
    "wiki": true,
    "recipes": [
     520
@@ -3239,6 +3598,7 @@
   "Plated Boneguard Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bf/Armour_PlatedBoneguardChestguard.png/revision/latest/scale-to-width-down/64?cb=20220528173422",
+   "fr": "Plastron d’ossadure renforcé",
    "wiki": true,
    "recipes": [
     518
@@ -3248,6 +3608,7 @@
   "Plated Boneguard Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Armour_PlatedBoneguardGloves.png/revision/latest/scale-to-width-down/64?cb=20220528173422",
+   "fr": "Gants d’ossadure renforcés",
    "wiki": true,
    "recipes": [
     521
@@ -3257,6 +3618,7 @@
   "Plated Boneguard Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8f/Armour_PlatedBoneguardLeggings.png/revision/latest/scale-to-width-down/64?cb=20220528173421",
+   "fr": "Jambières d’ossadure renforcées",
    "wiki": true,
    "recipes": [
     519
@@ -3266,6 +3628,7 @@
   "Pollen": {
    "type": "Herb",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b7/Item_Pollen.png/revision/latest/scale-to-width-down/64?cb=20230518024443",
+   "fr": "Pollen",
    "wiki": true,
    "recipes": [
     56,
@@ -3285,6 +3648,7 @@
   "Potion of Rage": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d5/Item_PotionofRage.png/revision/latest/scale-to-width-down/64?cb=20230521025840",
+   "fr": "Potion de rage",
    "wiki": true,
    "recipes": [
     21
@@ -3294,6 +3658,7 @@
   "Power Core": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f4/Item_PowerCore.png/revision/latest/scale-to-width-down/64?cb=20230517172044",
+   "fr": "Noyau d’énergie",
    "wiki": true,
    "recipes": [
     313
@@ -3303,6 +3668,7 @@
   "Primal Blood Essence": {
    "type": "Blood essence",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d6/Item_PrimalBloodEssence.png/revision/latest/scale-to-width-down/64?cb=20230529043347",
+   "fr": "Essence sanguine originelle",
    "wiki": true,
    "recipes": [
     89,
@@ -3313,6 +3679,7 @@
   "Primal Blood Soul": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/96/Item_PrimalBloodSoul.png/revision/latest/scale-to-width-down/64?cb=20250504012424",
+   "fr": "Âme sanguine élémentaire",
    "wiki": true,
    "recipes": [
     176
@@ -3322,6 +3689,7 @@
   "Pristine Hide": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/60/Item_PristineHide.png/revision/latest/scale-to-width-down/64?cb=20220529094654",
+   "fr": "Peau immaculée",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3329,6 +3697,7 @@
   "Pristine Leather": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f7/Item_PristineLeather.png/revision/latest/scale-to-width-down/64?cb=20220529094654",
+   "fr": "Cuir immaculé",
    "wiki": true,
    "recipes": [
     41
@@ -3338,6 +3707,7 @@
   "Pristine Leather Bag": {
    "type": "Bag",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/dc/Bag_PristineLeatherBag.png/revision/latest/scale-to-width-down/64?cb=20240508134904",
+   "fr": "Sac en cuir immaculé",
    "wiki": true,
    "recipes": [
     485
@@ -3347,6 +3717,7 @@
   "Putrid Rat": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/54/Item_PutridRat.png/revision/latest/scale-to-width-down/64?cb=20230517221114",
+   "fr": "Gargantua le rat putride",
    "wiki": true,
    "recipes": [
     395
@@ -3356,6 +3727,7 @@
   "Quartz": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0d/Item_Quartz.png/revision/latest/scale-to-width-down/64?cb=20220529095242",
+   "fr": "Quartz",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3363,6 +3735,7 @@
   "Radium Alloy": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6a/Item_RadiumAlloy.png/revision/latest/scale-to-width-down/64?cb=20230517171803",
+   "fr": "Alliage de radium",
    "wiki": true,
    "recipes": [
     49,
@@ -3373,6 +3746,7 @@
   "Rainbow Trout": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1f/Item_RainbowTrout.png/revision/latest/scale-to-width-down/64?cb=20220529093841",
+   "fr": "Truite arc-en-ciel",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3380,6 +3754,7 @@
   "Rare Ancestral Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5a/Weapon_RareAncestralAxes.png/revision/latest/scale-to-width-down/64?cb=20230603191532",
+   "fr": "Haches ancestrales (rare)",
    "wiki": true,
    "recipes": [
     416
@@ -3389,6 +3764,7 @@
   "Rare Ancestral Axes Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d7/Item_RareAncestralAxesShard.png/revision/latest/scale-to-width-down/64?cb=20230603190507",
+   "fr": "Fragments de haches ancestrales (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3396,6 +3772,7 @@
   "Rare Ancestral Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ed/Weapon_RareAncestralClaws.png/revision/latest/scale-to-width-down/64?cb=20250428200010",
+   "fr": "Griffes ancestrales (rare)",
    "wiki": true,
    "recipes": [
     426
@@ -3405,6 +3782,7 @@
   "Rare Ancestral Claws Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/64/Item_RareAncestralClawsShard.png/revision/latest/scale-to-width-down/64?cb=20250428200006",
+   "fr": "Fragments de griffes ancestrales (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3412,6 +3790,7 @@
   "Rare Ancestral Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/12/Weapon_RareAncestralCrossbow.png/revision/latest/scale-to-width-down/64?cb=20230603191715",
+   "fr": "Arbalète ancestrale (rare)",
    "wiki": true,
    "recipes": [
     422
@@ -3421,6 +3800,7 @@
   "Rare Ancestral Crossbow Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/78/Item_RareAncestralCrossbowShard.png/revision/latest/scale-to-width-down/64?cb=20230603190551",
+   "fr": "Fragments d’arbalète ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3428,6 +3808,7 @@
   "Rare Ancestral Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fb/Weapon_RareAncestralDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428195237",
+   "fr": "Dagues ancestrales (rare)",
    "wiki": true,
    "recipes": [
     424
@@ -3437,6 +3818,7 @@
   "Rare Ancestral Daggers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/86/Item_RareAncestralDaggersShard.png/revision/latest/scale-to-width-down/64?cb=20250428195232",
+   "fr": "Fragments de dagues ancestrales (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3444,6 +3826,7 @@
   "Rare Ancestral Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4f/Weapon_RareAncestralGreatsword.png/revision/latest/scale-to-width-down/64?cb=20230603191825",
+   "fr": "Grande épée ancestrale (rare)",
    "wiki": true,
    "recipes": [
     421
@@ -3453,6 +3836,7 @@
   "Rare Ancestral Greatsword Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7c/Item_RareAncestralGreatswordShard.png/revision/latest/scale-to-width-down/64?cb=20230603190807",
+   "fr": "Fragments de grande épée ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3460,6 +3844,7 @@
   "Rare Ancestral Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fb/Weapon_RareAncestralLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508233102",
+   "fr": "Arc long ancestral (rare)",
    "wiki": true,
    "recipes": [
     423
@@ -3469,6 +3854,7 @@
   "Rare Ancestral Longbow Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fe/Item_RareAncestralLongbowShard.png/revision/latest/scale-to-width-down/64?cb=20240508233227",
+   "fr": "Fragments d’arc long ancestral (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3476,6 +3862,7 @@
   "Rare Ancestral Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7b/Weapon_RareAncestralMace.png/revision/latest/scale-to-width-down/64?cb=20230603191611",
+   "fr": "Masse ancestrale (rare)",
    "wiki": true,
    "recipes": [
     417
@@ -3485,6 +3872,7 @@
   "Rare Ancestral Mace Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/51/Item_RareAncestralMaceShard.png/revision/latest/scale-to-width-down/64?cb=20230603190529",
+   "fr": "Fragments de masse ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3492,6 +3880,7 @@
   "Rare Ancestral Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d9/Weapon_RareAncestralPistols.png/revision/latest/scale-to-width-down/64?cb=20230603191651",
+   "fr": "Pistolets ancestraux (rare)",
    "wiki": true,
    "recipes": [
     427
@@ -3501,6 +3890,7 @@
   "Rare Ancestral Pistols Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9a/Item_RareAncestralPistolsShard.png/revision/latest/scale-to-width-down/64?cb=20230603190741",
+   "fr": "Fragments de pistolets ancestraux (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3508,6 +3898,7 @@
   "Rare Ancestral Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ee/Weapon_RareAncestralReaper.png/revision/latest/scale-to-width-down/64?cb=20230603191742",
+   "fr": "Faucheuse ancestrale (rare)",
    "wiki": true,
    "recipes": [
     419
@@ -3517,6 +3908,7 @@
   "Rare Ancestral Reaper Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/91/Item_RareAncestralReaperShard.png/revision/latest/scale-to-width-down/64?cb=20230603190623",
+   "fr": "Fragments de faucheuse ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3524,6 +3916,7 @@
   "Rare Ancestral Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b2/Weapon_RareAncestralSlashers.png/revision/latest/scale-to-width-down/64?cb=20230603191803",
+   "fr": "Trancheuses ancestrales (rare)",
    "wiki": true,
    "recipes": [
     420
@@ -3533,6 +3926,7 @@
   "Rare Ancestral Slashers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/bc/Item_RareAncestralSlashersShard.png/revision/latest/scale-to-width-down/64?cb=20230603190718",
+   "fr": "Fragments de trancheuses ancestrales (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3540,6 +3934,7 @@
   "Rare Ancestral Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/eb/Weapon_RareAncestralSpear.png/revision/latest/scale-to-width-down/64?cb=20230603191633",
+   "fr": "Lance ancestrale (rare)",
    "wiki": true,
    "recipes": [
     418
@@ -3549,6 +3944,7 @@
   "Rare Ancestral Spear Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/59/Item_RareAncestralSpearShard.png/revision/latest/scale-to-width-down/64?cb=20230603190439",
+   "fr": "Fragments de lance ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3556,6 +3952,7 @@
   "Rare Ancestral Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/05/Weapon_RareAncestralSword.png/revision/latest/scale-to-width-down/64?cb=20230603191508",
+   "fr": "Épée ancestrale (rare)",
    "wiki": true,
    "recipes": [
     415
@@ -3565,6 +3962,7 @@
   "Rare Ancestral Sword Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9c/Item_RareAncestralSwordShard.png/revision/latest/scale-to-width-down/64?cb=20230603190351",
+   "fr": "Fragments d’épée ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3572,6 +3970,7 @@
   "Rare Ancestral Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/da/Weapon_RareAncestralTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195725",
+   "fr": "Lame jumelle ancestrale (rare)",
    "wiki": true,
    "recipes": [
     425
@@ -3581,6 +3980,7 @@
   "Rare Ancestral Twinblade Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4a/Item_RareAncestralTwinbladeShard.png/revision/latest/scale-to-width-down/64?cb=20250428195722",
+   "fr": "Fragments de lame jumelle ancestrale (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3588,6 +3988,7 @@
   "Rare Ancestral Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a1/Weapon_RareAncestralWhip.png/revision/latest/scale-to-width-down/64?cb=20240508233406",
+   "fr": "Fouet ancestral (rare)",
    "wiki": true,
    "recipes": [
     428
@@ -3597,6 +3998,7 @@
   "Rare Ancestral Whip Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/11/Item_RareAncestralWhipShard.png/revision/latest/scale-to-width-down/64?cb=20240508200403",
+   "fr": "Fragments de fouet ancestral (rare)",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3604,6 +4006,7 @@
   "Rat": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4d/Item_Rat.png/revision/latest/scale-to-width-down/64?cb=20230517221024",
+   "fr": "Rat",
    "wiki": true,
    "recipes": [
     194
@@ -3613,6 +4016,7 @@
   "Razer Hood": {
    "type": "Head",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/53/Head_RazerHood.png/revision/latest/scale-to-width-down/64?cb=20220531112115",
+   "fr": "Capuche Razer",
    "wiki": true,
    "recipes": [
     237
@@ -3622,6 +4026,7 @@
   "Razer Serpent Cloak": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5e/Cloak_RazerSerpentCloak.png/revision/latest/scale-to-width-down/64?cb=20220528180534",
+   "fr": "Cape de serpent Razer",
    "wiki": true,
    "recipes": [
     272
@@ -3631,6 +4036,7 @@
   "Razer Serpent Mantle": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6b/Cloak_RazerSerpentMantle.png/revision/latest/scale-to-width-down/64?cb=20220528180817",
+   "fr": "Manteau de serpent Razer",
    "wiki": true,
    "recipes": [
     522
@@ -3640,6 +4046,7 @@
   "Razer Serpent Wrap": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5e/Cloak_RazerSerpentCloak.png/revision/latest/scale-to-width-down/64?cb=20220528180534",
+   "fr": "Bandages de serpent Razer",
    "wiki": true,
    "recipes": [
     240
@@ -3649,6 +4056,7 @@
   "Regular Amethyst": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a2/Item_RegularAmethyst.png/revision/latest/scale-to-width-down/64?cb=20230520202715",
+   "fr": "Améthyste ordinaire",
    "wiki": true,
    "recipes": [
     286,
@@ -3659,6 +4067,7 @@
   "Regular Emerald": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/28/Item_RegularEmerald.png/revision/latest/scale-to-width-down/64?cb=20230520202733",
+   "fr": "Émeraude ordinaire",
    "wiki": true,
    "recipes": [
     279,
@@ -3669,6 +4078,7 @@
   "Regular Miststone": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/83/Item_RegularMiststone.png/revision/latest/scale-to-width-down/64?cb=20230520202752",
+   "fr": "Pierre de brume ordinaire",
    "wiki": true,
    "recipes": [
     283,
@@ -3679,6 +4089,7 @@
   "Regular Ruby": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/56/Item_RegularRuby.png/revision/latest/scale-to-width-down/64?cb=20230520202604",
+   "fr": "Rubis ordinaire",
    "wiki": true,
    "recipes": [
     298,
@@ -3689,6 +4100,7 @@
   "Regular Sapphire": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/36/Item_RegularSapphire.png/revision/latest/scale-to-width-down/64?cb=20230520202653",
+   "fr": "Saphir ordinaire",
    "wiki": true,
    "recipes": [
     294,
@@ -3699,6 +4111,7 @@
   "Regular Topaz": {
    "type": "Gem",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1b/Item_RegularTopaz.png/revision/latest/scale-to-width-down/64?cb=20230520202635",
+   "fr": "Topaze ordinaire",
    "wiki": true,
    "recipes": [
     302,
@@ -3709,6 +4122,7 @@
   "Reinforced Bone Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3c/Weapon_ReinforcedBoneAxes.png/revision/latest/scale-to-width-down/64?cb=20240521234544",
+   "fr": "Haches d’os renforcées",
    "wiki": true,
    "recipes": [
     200,
@@ -3719,6 +4133,7 @@
   "Reinforced Bone Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f2/Weapon_ReinforcedBoneCrossbow.png/revision/latest/scale-to-width-down/64?cb=20240521234700",
+   "fr": "Arbalète d’os renforcée",
    "wiki": true,
    "recipes": [
     530,
@@ -3729,6 +4144,7 @@
   "Reinforced Bone Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Weapon_ReinforcedBoneMace.png/revision/latest/scale-to-width-down/64?cb=20240521234633",
+   "fr": "Masse d’os renforcée",
    "wiki": true,
    "recipes": [
     199,
@@ -3739,6 +4155,7 @@
   "Reinforced Bone Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Weapon_ReinforcedBoneSpear.png/revision/latest/scale-to-width-down/64?cb=20240521234611",
+   "fr": "Lance d’os renforcée",
    "wiki": true,
    "recipes": [
     198,
@@ -3749,6 +4166,7 @@
   "Reinforced Bone Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/51/Weapon_ReinforcedBoneSword.png/revision/latest/scale-to-width-down/64?cb=20240521234445",
+   "fr": "Épée d’os renforcée",
    "wiki": true,
    "recipes": [
     196,
@@ -3759,6 +4177,7 @@
   "Reinforced Plank": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/94/Item_ReinforcedPlank.png/revision/latest/scale-to-width-down/64?cb=20220529095021",
+   "fr": "Planche renforcée",
    "wiki": true,
    "recipes": [
     97
@@ -3768,6 +4187,7 @@
   "Ring of the Dawnrunner": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e4/Jewelry_RingoftheDawnrunner.png/revision/latest/scale-to-width-down/64?cb=20230521032953",
+   "fr": "Anneau du coureur de l’aube",
    "wiki": true,
    "recipes": [
     140,
@@ -3778,6 +4198,7 @@
   "Ring of the Duskwatcher": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/25/Jewelry_RingoftheDuskwatcher.png/revision/latest/scale-to-width-down/64?cb=20230521190812",
+   "fr": "Anneau de la sentinelle du crépuscule",
    "wiki": true,
    "recipes": [
     142,
@@ -3788,6 +4209,7 @@
   "Ring of the Sorcerer": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a0/Jewelry_RingoftheSorcerer.png/revision/latest/scale-to-width-down/64?cb=20250430180430",
+   "fr": "Anneau du sorcier",
    "wiki": true,
    "recipes": [
     139
@@ -3797,6 +4219,7 @@
   "Ring of the Spellweaver": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/46/Jewelry_RingoftheSpellweaver.png/revision/latest/scale-to-width-down/64?cb=20230521033042",
+   "fr": "Anneau du tisseur de sorts",
    "wiki": true,
    "recipes": [
     141,
@@ -3807,6 +4230,7 @@
   "Ring of the Warlock": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/72/Jewelry_RingoftheWarlock.png/revision/latest/scale-to-width-down/64?cb=20230521032933",
+   "fr": "Anneau du mage",
    "wiki": true,
    "recipes": [
     138,
@@ -3817,6 +4241,7 @@
   "Ring of the Warrior": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/40/Jewelry_RingoftheWarrior.png/revision/latest/scale-to-width-down/64?cb=20250430180426",
+   "fr": "Anneau du guerrier",
    "wiki": true,
    "recipes": [
     137
@@ -3826,6 +4251,7 @@
   "Rowdain's Steed": {
    "type": "Saddle",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/43/Item_Rowdain%27sSteed.png/revision/latest/scale-to-width-down/64?cb=20240511005134",
+   "fr": "Étalon de Rowdain",
    "wiki": true,
    "recipes": [
     447
@@ -3835,6 +4261,7 @@
   "Rugged Hide": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e9/Item_RuggedHide.png/revision/latest/scale-to-width-down/64?cb=20230517171151",
+   "fr": "Peau résistante",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3842,6 +4269,7 @@
   "Sacred Grapes": {
    "type": "Herb",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/41/Item_SacredGrapes.png/revision/latest/scale-to-width-down/64?cb=20230519050208",
+   "fr": "Raisins sacrés",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3849,6 +4277,7 @@
   "Sage Fish": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/74/Item_SageFish.png/revision/latest/scale-to-width-down/64?cb=20220529093841",
+   "fr": "Poisson-sauge",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -3856,6 +4285,7 @@
   "Sanguine Axes": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/90/Weapon_SanguineAxes.png/revision/latest/scale-to-width-down/64?cb=20220528171803",
+   "fr": "Haches sanguines",
    "wiki": true,
    "recipes": [
     120
@@ -3865,6 +4295,7 @@
   "Sanguine Claws": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/74/Weapon_SanguineClaws.png/revision/latest/scale-to-width-down/64?cb=20250428195956",
+   "fr": "Griffes sanguines",
    "wiki": true,
    "recipes": [
     130
@@ -3874,6 +4305,7 @@
   "Sanguine Crossbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Weapon_SanguineCrossbow.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Arbalète sanguine",
    "wiki": true,
    "recipes": [
     125
@@ -3883,6 +4315,7 @@
   "Sanguine Daggers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a4/Weapon_SanguineDaggers.png/revision/latest/scale-to-width-down/64?cb=20250428181832",
+   "fr": "Dagues sanguines",
    "wiki": true,
    "recipes": [
     128
@@ -3892,6 +4325,7 @@
   "Sanguine Greatsword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3c/Weapon_SanguineGreatsword.png/revision/latest/scale-to-width-down/64?cb=20230521233302",
+   "fr": "Grande épée sanguine",
    "wiki": true,
    "recipes": [
     127
@@ -3901,6 +4335,7 @@
   "Sanguine Longbow": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c1/Weapon_SanguineLongbow.png/revision/latest/scale-to-width-down/64?cb=20240508205617",
+   "fr": "Arc long sanguin",
    "wiki": true,
    "recipes": [
     126
@@ -3910,6 +4345,7 @@
   "Sanguine Mace": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a4/Weapon_SanguineMace.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Masse sanguine",
    "wiki": true,
    "recipes": [
     121
@@ -3919,6 +4355,7 @@
   "Sanguine Pistols": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fc/Weapon_SanguinePistols.png/revision/latest/scale-to-width-down/64?cb=20230521233436",
+   "fr": "Pistolets sanguins",
    "wiki": true,
    "recipes": [
     131
@@ -3928,6 +4365,7 @@
   "Sanguine Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ed/Weapon_SanguineReaper.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Faucheuse sanguine",
    "wiki": true,
    "recipes": [
     123
@@ -3937,6 +4375,7 @@
   "Sanguine Slashers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d7/Weapon_SanguineSlashers.png/revision/latest/scale-to-width-down/64?cb=20220528171635",
+   "fr": "Trancheuses sanguines",
    "wiki": true,
    "recipes": [
     124
@@ -3946,6 +4385,7 @@
   "Sanguine Spear": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/91/Weapon_SanguineSpear.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Lance sanguine",
    "wiki": true,
    "recipes": [
     122
@@ -3955,6 +4395,7 @@
   "Sanguine Sword": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/ec/Weapon_SanguineSword.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Épée sanguine",
    "wiki": true,
    "recipes": [
     119
@@ -3964,6 +4405,7 @@
   "Sanguine Twinblade": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ab/Weapon_SanguineTwinblade.png/revision/latest/scale-to-width-down/64?cb=20250428195715",
+   "fr": "Lame jumelle sanguine",
    "wiki": true,
    "recipes": [
     129
@@ -3973,6 +4415,7 @@
   "Sanguine Whip": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b5/Weapon_SanguineWhip.png/revision/latest/scale-to-width-down/64?cb=20240508142912",
+   "fr": "Fouet sanguin",
    "wiki": true,
    "recipes": [
     132
@@ -3982,6 +4425,7 @@
   "Sawdust": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Item_Sawdust.png/revision/latest/scale-to-width-down/64?cb=20220526223722",
+   "fr": "Sciure",
    "wiki": true,
    "recipes": [
     514
@@ -3991,6 +4435,7 @@
   "Schematic": {
    "type": "Knowledge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/98/Item_Schematic.png/revision/latest/scale-to-width-down/64?cb=20220529095320",
+   "fr": "Plan",
    "wiki": true,
    "recipes": [
     533,
@@ -4001,6 +4446,7 @@
   "Scourgestone": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/07/Item_Scourgestone.png/revision/latest/scale-to-width-down/64?cb=20220529095241",
+   "fr": "Pierre de fléau",
    "wiki": true,
    "recipes": [
     48,
@@ -4011,6 +4457,7 @@
   "Scourgestone Pendant": {
    "type": "Jewelry",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cc/Jewelry_ScourgestonePendant.png/revision/latest/scale-to-width-down/64?cb=20230521033125",
+   "fr": "Pendentif de fléau",
    "wiki": true,
    "recipes": [
     143
@@ -4020,6 +4467,7 @@
   "Scroll": {
    "type": "Knowledge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fc/Item_Scroll.png/revision/latest/scale-to-width-down/64?cb=20230520231816",
+   "fr": "Parchemin",
    "wiki": true,
    "recipes": [
     250,
@@ -4030,6 +4478,7 @@
   "Sculptured Wood": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/87/Item_SculpturedWood.png/revision/latest/scale-to-width-down/64?cb=20220529095021",
+   "fr": "Bois sculpté",
    "wiki": true,
    "recipes": [
     516
@@ -4039,6 +4488,7 @@
   "Shadewalker Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/32/Armour_ShadewalkerBoots.png/revision/latest/scale-to-width-down/64?cb=20240508155748",
+   "fr": "Bottes de marcheur de l’ombre",
    "wiki": true,
    "recipes": [
     223
@@ -4048,6 +4498,7 @@
   "Shadewalker Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5e/Armour_ShadewalkerGloves.png/revision/latest/scale-to-width-down/64?cb=20240508155758",
+   "fr": "Gants de marcheur de l’ombre",
    "wiki": true,
    "recipes": [
     222
@@ -4057,6 +4508,7 @@
   "Shadewalker Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a3/Armour_ShadewalkerLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508155737",
+   "fr": "Jambières de marcheur de l’ombre",
    "wiki": true,
    "recipes": [
     221
@@ -4066,6 +4518,7 @@
   "Shadewalker Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a7/Armour_ShadewalkerVest.png/revision/latest/scale-to-width-down/64?cb=20240508155719",
+   "fr": "Veste de marcheur de l’ombre",
    "wiki": true,
    "recipes": [
     220
@@ -4075,6 +4528,7 @@
   "Shadow Weave": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/31/Item_ShadowWeave.png/revision/latest/scale-to-width-down/64?cb=20240508132842",
+   "fr": "Trame de l’ombre",
    "wiki": true,
    "recipes": [
     76
@@ -4084,6 +4538,7 @@
   "Shadowmoon Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a0/Armour_ShadowmoonBoots.png/revision/latest/scale-to-width-down/64?cb=20240510190243",
+   "fr": "Bottes d’ombrelune",
    "wiki": true,
    "recipes": [
     381
@@ -4093,6 +4548,7 @@
   "Shadowmoon Chestguard": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b8/Armour_ShadowmoonChestguard.png/revision/latest/scale-to-width-down/64?cb=20240510190219",
+   "fr": "Plastron d’ombrelune",
    "wiki": true,
    "recipes": [
     379
@@ -4102,6 +4558,7 @@
   "Shadowmoon Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7f/Armour_ShadowmoonGloves.png/revision/latest/scale-to-width-down/64?cb=20240510190259",
+   "fr": "Gants d’ombrelune",
    "wiki": true,
    "recipes": [
     382
@@ -4111,6 +4568,7 @@
   "Shadowmoon Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/73/Armour_ShadowmoonLeggings.png/revision/latest/scale-to-width-down/64?cb=20240510190233",
+   "fr": "Jambières d’ombrelune",
    "wiki": true,
    "recipes": [
     380
@@ -4120,6 +4578,7 @@
   "Shanoa's Gown": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/da/Armour_ShanoasGown.png/revision/latest/scale-to-width-down/64?cb=20250429004119",
+   "fr": "Robe de Shanoa",
    "wiki": true,
    "recipes": [
     245
@@ -4129,6 +4588,7 @@
   "Shanoa's Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/41/Armour_ShanoasLeggings.png/revision/latest/scale-to-width-down/64?cb=20250429004142",
+   "fr": "Jambières de Shanoa",
    "wiki": true,
    "recipes": [
     246
@@ -4138,6 +4598,7 @@
   "Shroud of the Forest": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/fe/Cloak_ShroudoftheForest.png/revision/latest/scale-to-width-down/64?cb=20230522015507",
+   "fr": "Voile de la forêt",
    "wiki": true,
    "recipes": [
     392
@@ -4147,6 +4608,7 @@
   "Siege Golem Stone": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/ce/Item_SiegeGolemStone.png/revision/latest/scale-to-width-down/64?cb=20230521075746",
+   "fr": "Golem de siège en pierre",
    "wiki": true,
    "recipes": [
     364,
@@ -4157,6 +4619,7 @@
   "Silk": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/95/Item_Silk.png/revision/latest/scale-to-width-down/64?cb=20220529095258",
+   "fr": "Soie",
    "wiki": true,
    "recipes": [
     74,
@@ -4167,6 +4630,7 @@
   "Silkworm": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8c/Item_Silkworm.png/revision/latest/scale-to-width-down/64?cb=20220529095337",
+   "fr": "Ver à soie",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4174,6 +4638,7 @@
   "Silver Coin": {
    "type": "Coin",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b7/Item_SilverCoin.png/revision/latest/scale-to-width-down/64?cb=20230518231538",
+   "fr": "Pièce d’argent",
    "wiki": true,
    "recipes": [
     359,
@@ -4186,6 +4651,7 @@
   "Silver Ore": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/80/Item_SilverOre.png/revision/latest/scale-to-width-down/64?cb=20220529095440",
+   "fr": "Minerai d’argent",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4193,6 +4659,7 @@
   "Silver Resistance Brew": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/24/Item_SilverResistanceBrew.png/revision/latest/scale-to-width-down/64?cb=20220528211106",
+   "fr": "Breuvage de résistance à l’argent",
    "wiki": true,
    "recipes": [
     9
@@ -4202,6 +4669,7 @@
   "Silver Resistance Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a3/Item_SilverResistancePotion.png/revision/latest/scale-to-width-down/64?cb=20230521025955",
+   "fr": "Potion de résistance à l’argent",
    "wiki": true,
    "recipes": [
     15
@@ -4211,6 +4679,7 @@
   "Silver Thread Bag": {
    "type": "Bag",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b8/Bag_SilverThreadBag.png/revision/latest/scale-to-width-down/64?cb=20240508134758",
+   "fr": "Sac en fils d’argent",
    "wiki": true,
    "recipes": [
     479
@@ -4220,6 +4689,7 @@
   "Skeleton": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5a/Item_Skeleton.png/revision/latest/scale-to-width-down/64?cb=20230521235925",
+   "fr": "Squelette",
    "wiki": true,
    "recipes": [
     197
@@ -4229,6 +4699,7 @@
   "Skeleton Priest": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e3/Item_SkeletonPriest.png/revision/latest/scale-to-width-down/64?cb=20230521235952",
+   "fr": "Prêtre squelette",
    "wiki": true,
    "recipes": [
     377
@@ -4238,6 +4709,7 @@
   "Sludge-filled Canister": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4d/Item_Sludge-filledCanister.png/revision/latest/scale-to-width-down/64?cb=20230517214101",
+   "fr": "Bonbonne à gadoue",
    "wiki": true,
    "recipes": [
     358
@@ -4247,6 +4719,7 @@
   "Snow Flower": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/63/Item_SnowFlower.png/revision/latest/scale-to-width-down/64?cb=20230519053605",
+   "fr": "Fleur des neiges",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4254,6 +4727,7 @@
   "Soma Cruz's Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b1/Armour_SomaCruzsBoots.png/revision/latest/scale-to-width-down/64?cb=20250429004045",
+   "fr": "Bottes de Soma Cruz",
    "wiki": true,
    "recipes": [
     249
@@ -4263,6 +4737,7 @@
   "Soma Cruz's Coat": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/36/Armour_SomaCruzsCoat.png/revision/latest/scale-to-width-down/64?cb=20250429004032",
+   "fr": "Manteau de Soma Cruz",
    "wiki": true,
    "recipes": [
     247
@@ -4272,6 +4747,7 @@
   "Soma Cruz's Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8d/Armour_SomaCruzsLeggings.png/revision/latest/scale-to-width-down/64?cb=20250429004038",
+   "fr": "Jambières de Soma Cruz",
    "wiki": true,
    "recipes": [
     248
@@ -4281,6 +4757,7 @@
   "Spectral Dust": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c3/Item_SpectralDust.png/revision/latest/scale-to-width-down/64?cb=20230520203518",
+   "fr": "Poudre spectrale",
    "wiki": true,
    "recipes": [
     53,
@@ -4292,6 +4769,7 @@
   "Spiderling": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/82/Item_Spiderling.png/revision/latest/scale-to-width-down/64?cb=20230521191013",
+   "fr": "Jeune araignée",
    "wiki": true,
    "recipes": [
     338
@@ -4301,6 +4779,7 @@
   "Stone": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/93/Item_Stone.png/revision/latest/scale-to-width-down/64?cb=20220529094934",
+   "fr": "Pierre",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4308,6 +4787,7 @@
   "Stone Body": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/70/Item_StoneBody.png/revision/latest/scale-to-width-down/64?cb=20220529094953",
+   "fr": "Corps de pierre",
    "wiki": true,
    "recipes": [
     54
@@ -4317,6 +4797,7 @@
   "Stone Brick": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b4/Item_StoneBrick.png/revision/latest/scale-to-width-down/64?cb=20220529094935",
+   "fr": "Brique de pierre",
    "wiki": true,
    "recipes": [
     539
@@ -4326,6 +4807,7 @@
   "Stone Dust": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Item_StoneDust.png/revision/latest/scale-to-width-down/64?cb=20220529094935",
+   "fr": "Poussière de pierre",
    "wiki": true,
    "recipes": [
     539
@@ -4335,6 +4817,7 @@
   "Storm Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e4/Item_StormCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171423",
+   "fr": "Enduit de tempête",
    "wiki": true,
    "recipes": [
     35
@@ -4344,6 +4827,7 @@
   "Storm Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/c7/Jewel_StormTier1.png/revision/latest/scale-to-width-down/64?cb=20230521034415",
+   "fr": "Joyau tempétueux de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4351,6 +4835,7 @@
   "Storm Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/36/Jewel_StormTier2.png/revision/latest/scale-to-width-down/64?cb=20230521034434",
+   "fr": "Joyau tempétueux de rang 2",
    "wiki": true,
    "recipes": [
     453
@@ -4360,6 +4845,7 @@
   "Storm Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/72/Jewel_StormTier3.png/revision/latest/scale-to-width-down/64?cb=20230521034545",
+   "fr": "Joyau tempétueux de rang 3",
    "wiki": true,
    "recipes": [
     478
@@ -4369,6 +4855,7 @@
   "Storm Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/29/Jewel_StormTier4.png/revision/latest/scale-to-width-down/64?cb=20230521034606",
+   "fr": "Joyau tempétueux de rang 4",
    "wiki": true,
    "recipes": [
     438
@@ -4378,6 +4865,7 @@
   "Stygian Shard": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e8/Item_LesserStygianShard.png/revision/latest/scale-to-width-down/64?cb=20260303163442",
+   "fr": "Fragment stygien",
    "wiki": true,
    "recipes": [
     545
@@ -4387,6 +4875,7 @@
   "Sulphur": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7d/Item_Sulphur.png/revision/latest/scale-to-width-down/64?cb=20220529095412",
+   "fr": "Soufre",
    "wiki": true,
    "recipes": [
     44
@@ -4396,6 +4885,7 @@
   "Sulphur Ore": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/47/Item_SulphurOre.png/revision/latest/scale-to-width-down/64?cb=20220529095410",
+   "fr": "Minerai de soufre",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4403,6 +4893,7 @@
   "Sunflower": {
    "type": "Flower",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b7/Item_Sunflower.png/revision/latest/scale-to-width-down/64?cb=20230519053828",
+   "fr": "Tournesol",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4410,6 +4901,7 @@
   "Swamp Dweller": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/49/Item_SwampDweller.png/revision/latest/scale-to-width-down/64?cb=20220529093841",
+   "fr": "Frai des marécages",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4417,6 +4909,7 @@
   "Tainted Heart": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Item_TaintedHeart.png/revision/latest/scale-to-width-down/64?cb=20220528211106",
+   "fr": "Cœur souillé",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4424,6 +4917,7 @@
   "Talons of the Lich Beast": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/29/Weapon_TalonsoftheLichBeast.png/revision/latest/scale-to-width-down/64?cb=20250428200144",
+   "fr": "Serres de la liche",
    "wiki": true,
    "recipes": [
     492
@@ -4433,6 +4927,7 @@
   "Talons of the Lich Beast Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/15/Item_TalonsoftheLichBeastShard.png/revision/latest/scale-to-width-down/64?cb=20250428200138",
+   "fr": "Fragment : Serres de la liche",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4440,6 +4935,7 @@
   "Tech Scrap": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/85/Item_TechScrap.png/revision/latest/scale-to-width-down/64?cb=20230517165413",
+   "fr": "Rebuts",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4447,6 +4943,7 @@
   "The Endbringers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d4/Weapon_TheEndbringers.png/revision/latest/scale-to-width-down/64?cb=20250504013441",
+   "fr": "Grandes sorgues",
    "wiki": true,
    "recipes": [
     495
@@ -4456,6 +4953,7 @@
   "The Endbringers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/01/Item_AncestralPistolsShards.png/revision/latest/scale-to-width-down/64?cb=20230531041215",
+   "fr": "Fragment : Grandes sorgues",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4463,6 +4961,7 @@
   "The Fate Dancers": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/47/Weapon_TheFateDancers.png/revision/latest/scale-to-width-down/64?cb=20250428195800",
+   "fr": "Danseuses du destin",
    "wiki": true,
    "recipes": [
     493
@@ -4472,6 +4971,7 @@
   "The Fate Dancers Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/65/Item_TheFateDancersShard.png/revision/latest/scale-to-width-down/64?cb=20250428195750",
+   "fr": "Fragment : Danseuses du destin",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4479,6 +4979,7 @@
   "The Fish": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ad/Item_TheFish.png/revision/latest/scale-to-width-down/64?cb=20220620152925",
+   "fr": "Le Poisson",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4486,6 +4987,7 @@
   "The General's Soul Reaper": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/14/Weapon_TheGeneral%27sSoulReaper.png/revision/latest/scale-to-width-down/64?cb=20220528171804",
+   "fr": "Faucheuse d’âmes du général",
    "wiki": true,
    "recipes": [
     546
@@ -4495,6 +4997,7 @@
   "The Gravecaller": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f9/Weapon_TheGravecaller.png/revision/latest/scale-to-width-down/64?cb=20250504012746",
+   "fr": "La Fossoyeuse",
    "wiki": true,
    "recipes": [
     486
@@ -4504,6 +5007,7 @@
   "The Gravecaller Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/23/Item_AncestralSwordShards.png/revision/latest/scale-to-width-down/64?cb=20230531040846",
+   "fr": "Fragment : La Fossoyeuse",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4511,6 +5015,7 @@
   "The Morning Star": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/19/Weapon_LegendaryAncestralWhip.png/revision/latest/scale-to-width-down/64?cb=20240511164952",
+   "fr": "Étoile du matin",
    "wiki": true,
    "recipes": [
     491
@@ -4520,6 +5025,7 @@
   "The Morning Star Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/40/Item_LegendaryAncestralWhipShard.png/revision/latest/scale-to-width-down/64?cb=20240511164906",
+   "fr": "Fragment : Étoile du matin",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4527,6 +5033,7 @@
   "The Red Twins": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/55/Weapon_TheRedTwins.png/revision/latest/scale-to-width-down/64?cb=20250504012822",
+   "fr": "Les Jumelles écarlates",
    "wiki": true,
    "recipes": [
     487
@@ -4536,6 +5043,7 @@
   "The Red Twins Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/5c/Item_AncestralAxesShards.png/revision/latest/scale-to-width-down/64?cb=20230531040930",
+   "fr": "Fragment : Les Jumelles écarlates",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4543,6 +5051,7 @@
   "The Siren's Wail": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Weapon_TheSirensWail.png/revision/latest/scale-to-width-down/64?cb=20250504013334",
+   "fr": "La Complainte de la sirène",
    "wiki": true,
    "recipes": [
     496
@@ -4552,6 +5061,7 @@
   "The Siren's Wail Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7e/Item_AncestralCrossbowShards.png/revision/latest/scale-to-width-down/64?cb=20230531041058",
+   "fr": "Fragment : La Complainte de la sirène",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4559,6 +5069,7 @@
   "The Thousand Storms": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/60/Weapon_TheThousandStorms.png/revision/latest/scale-to-width-down/64?cb=20250504013010",
+   "fr": "Mille tempêtes",
    "wiki": true,
    "recipes": [
     488
@@ -4568,6 +5079,7 @@
   "The Thousand Storms Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/13/Item_AncestralSpearShards.png/revision/latest/scale-to-width-down/64?cb=20230531041017",
+   "fr": "Fragment : Mille tempêtes",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4575,6 +5087,7 @@
   "The Wraithblades": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/77/Weapon_TheWraithblades.png/revision/latest/scale-to-width-down/64?cb=20250428195311",
+   "fr": "Lames spectrales",
    "wiki": true,
    "recipes": [
     494
@@ -4584,6 +5097,7 @@
   "The Wraithblades Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d7/Item_TheWraithbladesShard.png/revision/latest/scale-to-width-down/64?cb=20250428195302",
+   "fr": "Fragment : Lames spectrales",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4591,6 +5105,7 @@
   "Thick Hide": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/00/Item_ThickHide.png/revision/latest/scale-to-width-down/64?cb=20230517171057",
+   "fr": "Peau épaisse",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4598,6 +5113,7 @@
   "Thick Leather": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/3b/Item_ThickLeather.png/revision/latest/scale-to-width-down/64?cb=20230518020943",
+   "fr": "Cuir épais",
    "wiki": true,
    "recipes": [
     40
@@ -4607,6 +5123,7 @@
   "Tier 1 Recipe Books": {
    "type": "Recipebook",
    "icon": null,
+   "fr": null,
    "wiki": true,
    "recipes": [
     506
@@ -4616,6 +5133,7 @@
   "Tier 2 Recipe Books": {
    "type": "Recipebook",
    "icon": null,
+   "fr": null,
    "wiki": true,
    "recipes": [
     532
@@ -4625,6 +5143,7 @@
   "Tier 3 Recipe Books": {
    "type": "Recipebook",
    "icon": null,
+   "fr": null,
    "wiki": true,
    "recipes": [
     535
@@ -4634,6 +5153,7 @@
   "Traveller's Wrap": {
    "type": "Cloak",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/38/Cloak_TravellersWrap.png/revision/latest/scale-to-width-down/64?cb=20220528174040",
+   "fr": "Pelisse de voyageur",
    "wiki": true,
    "recipes": [
     238
@@ -4643,6 +5163,7 @@
   "Twilight Snapper": {
    "type": "Fish",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7b/Item_TwilightSnapper.png/revision/latest/scale-to-width-down/64?cb=20220529094048",
+   "fr": "Vivaneau du crépuscule",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4650,6 +5171,7 @@
   "Unholy Coating": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e3/Item_UnholyCoating.png/revision/latest/scale-to-width-down/64?cb=20250428171428",
+   "fr": "Enduit impie",
    "wiki": true,
    "recipes": [
     36
@@ -4659,6 +5181,7 @@
   "Unholy Jewel Tier 1": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a5/Jewel_UnholyTier1.png/revision/latest/scale-to-width-down/64?cb=20230521035035",
+   "fr": "Joyau impie de rang 1",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4666,6 +5189,7 @@
   "Unholy Jewel Tier 2": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/93/Jewel_UnholyTier2.png/revision/latest/scale-to-width-down/64?cb=20230521035051",
+   "fr": "Joyau impie de rang 2",
    "wiki": true,
    "recipes": [
     450
@@ -4675,6 +5199,7 @@
   "Unholy Jewel Tier 3": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/ce/Jewel_UnholyTier3.png/revision/latest/scale-to-width-down/64?cb=20230521035111",
+   "fr": "Joyau impie de rang 3",
    "wiki": true,
    "recipes": [
     475
@@ -4684,6 +5209,7 @@
   "Unholy Jewel Tier 4": {
    "type": "Jewel",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a6/Jewel_UnholyTier4.png/revision/latest/scale-to-width-down/64?cb=20230521035137",
+   "fr": "Joyau impie de rang 4",
    "wiki": true,
    "recipes": [
     435
@@ -4693,6 +5219,7 @@
   "Unsullied Heart": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/13/Item_UnsulliedHeart.png/revision/latest/scale-to-width-down/64?cb=20220528211006",
+   "fr": "Cœur intact",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4700,6 +5227,7 @@
   "Vampire Awakening Scroll": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a0/Item_VampireAwakeningScroll.png/revision/latest/scale-to-width-down/64?cb=20250504010301",
+   "fr": null,
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4707,6 +5235,7 @@
   "Vampire Horse Saddle": {
    "type": "Saddle",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/be/Item_VampireHorseSaddle.png/revision/latest/scale-to-width-down/64?cb=20230519050550",
+   "fr": "Selle de cheval vampirique",
    "wiki": true,
    "recipes": [
     445
@@ -4716,6 +5245,7 @@
   "Venom Sap": {
    "type": "Alchemy",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cd/Item_VenomSap.png/revision/latest/scale-to-width-down/64?cb=20250428171901",
+   "fr": "Sève vénéneuse",
    "wiki": true,
    "recipes": [
     85,
@@ -4726,6 +5256,7 @@
   "Vermin Salve": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/6/6d/Item_Vermin_Salve.png/revision/latest/scale-to-width-down/64?cb=20220526210219",
+   "fr": "Baume de vermine",
    "wiki": true,
    "recipes": [
     0
@@ -4735,6 +5266,7 @@
   "Warlock Boots": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d0/Armour_WarlockBoots.png/revision/latest/scale-to-width-down/64?cb=20240508155201",
+   "fr": "Bottes du mage",
    "wiki": true,
    "recipes": [
     235
@@ -4744,6 +5276,7 @@
   "Warlock Gloves": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/f5/Armour_WarlockGloves.png/revision/latest/scale-to-width-down/64?cb=20240508155208",
+   "fr": "Gants du mage",
    "wiki": true,
    "recipes": [
     234
@@ -4753,6 +5286,7 @@
   "Warlock Leggings": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9a/Armour_WarlockLeggings.png/revision/latest/scale-to-width-down/64?cb=20240508155155",
+   "fr": "Jambières du mage",
    "wiki": true,
    "recipes": [
     233
@@ -4762,6 +5296,7 @@
   "Warlock Vest": {
    "type": "Armour",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/21/Armour_WarlockVest.png/revision/latest/scale-to-width-down/64?cb=20240508155140",
+   "fr": "Veste du mage",
    "wiki": true,
    "recipes": [
     232
@@ -4771,6 +5306,7 @@
   "Whetstone": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/22/Item_Whetstone.png/revision/latest/scale-to-width-down/64?cb=20220529095145",
+   "fr": "Pierre à aiguiser",
    "wiki": true,
    "recipes": [
     45
@@ -4780,6 +5316,7 @@
   "Wings of the Fallen": {
    "type": "Weapon",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/a8/Weapon_WingsoftheFallen.png/revision/latest/scale-to-width-down/64?cb=20250504013238",
+   "fr": "Ailes du déchu",
    "wiki": true,
    "recipes": [
     489
@@ -4789,6 +5326,7 @@
   "Wings of the Fallen Shard": {
    "type": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/08/Item_AncestralSlashersShards.png/revision/latest/scale-to-width-down/64?cb=20230531041154",
+   "fr": "Fragment : Ailes du déchu",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4796,6 +5334,7 @@
   "Witch Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d6/Item_WitchPotion.png/revision/latest/scale-to-width-down/64?cb=20230521025724",
+   "fr": "Potion de sorcière",
    "wiki": true,
    "recipes": [
     22
@@ -4805,6 +5344,7 @@
   "Wood": {
    "type": "Material",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4b/Item_Wood.png/revision/latest/scale-to-width-down/64?cb=20220529095020",
+   "fr": "Bois",
    "wiki": true,
    "recipes": [],
    "farmByDefault": false
@@ -4812,6 +5352,7 @@
   "Wool Thread": {
    "type": "Tailoring",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/15/Item_WoolThread.png/revision/latest/scale-to-width-down/64?cb=20220529094654",
+   "fr": "Fil de laine",
    "wiki": true,
    "recipes": [
     73
@@ -4821,6 +5362,7 @@
   "Wrangler's Potion": {
    "type": "Consumable",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9a/Item_WranglersPotion.png/revision/latest/scale-to-width-down/64?cb=20230521030012",
+   "fr": "Potion de cavalier",
    "wiki": true,
    "recipes": [
     16
@@ -21992,204 +22534,272 @@
    "unlock": "Jade the Vampire Hunter",
    "room": "Alchemy Lab",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8d/Structure_AdvancedBloodPress.png/revision/latest/scale-to-width-down/64?cb=20240512213455",
+   "fr": "Pressoir de sang avancé",
+   "unlockFr": "Jade la chasseuse de vampires",
    "wiki": true
   },
   "Advanced Furnace": {
    "unlock": "Cyril the Cursed Smith",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/33/Structure_AdvancedFurnace.png/revision/latest/scale-to-width-down/64?cb=20240512213459",
+   "fr": "Fourneau avancé",
+   "unlockFr": "Cyril le Forgeron maudit",
    "wiki": true
   },
   "Advanced Grinder": {
    "unlock": "Domina the Blade Dancer",
    "room": "Workshop",
    "icon": "https://static.wikia.nocookie.net/vrising/images/3/39/Structure_AdvancedGrinder.png/revision/latest/scale-to-width-down/64?cb=20240512213503",
+   "fr": "Broyeur avancé",
+   "unlockFr": "Domina la lame dansante",
    "wiki": true
   },
   "Advanced Loom": {
    "unlock": "Matka the Curse Weaver",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/e/e6/Structure_AdvancedLoom.png/revision/latest/scale-to-width-down/64?cb=20240512213508",
+   "fr": "Métier à tisser avancé",
+   "unlockFr": "Matka la tisseuse maudite",
    "wiki": true
   },
   "Advanced Sawmill": {
    "unlock": "Stavros the Carver",
    "room": "Workshop",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/2b/Structure_AdvancedSawmill.png/revision/latest/scale-to-width-down/64?cb=20250428171214",
+   "fr": "Scierie avancée",
+   "unlockFr": "Stavros le sculpteur",
    "wiki": true
   },
   "Advanced Tannery": {
    "unlock": "Terrorclaw the Ogre",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/50/Structure_AdvancedTannery.png/revision/latest/scale-to-width-down/64?cb=20240512213512",
+   "fr": "Tannerie avancée",
+   "unlockFr": "Terrogriffe l’ogre",
    "wiki": true
   },
   "Alchemy Table": {
    "unlock": "Clive the Firestarter",
    "room": "Alchemy Lab",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/da/Structure_Alchemy_Table.png/revision/latest/scale-to-width-down/64?cb=20240323220511",
+   "fr": "Table d’alchimie",
+   "unlockFr": "Clive l’incendiaire",
    "wiki": true
   },
   "Ancestral Forge": {
    "unlock": "Octavian the Militia Captain",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/75/Structure_AncestralForge.png/revision/latest/scale-to-width-down/64?cb=20230518074000",
+   "fr": "Forge ancestrale",
+   "unlockFr": "Octavian le capitaine de la milice",
    "wiki": true
   },
   "Anvil": {
    "unlock": "Cyril the Cursed Smith",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/8e/Structure_Anvil.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Enclume",
+   "unlockFr": "Cyril le Forgeron maudit",
    "wiki": true
   },
   "Artisan Table": {
    "unlock": "Leandra the Shadow Priestess",
    "room": "Jeweller's Chamber",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/50/Structure_ArtisanTable.png/revision/latest/scale-to-width-down/64?cb=20220529154157",
+   "fr": "Table d’artisanat",
+   "unlockFr": "Leandra la prêtresse des ombres",
    "wiki": true
   },
   "Athenaeum": {
    "unlock": "",
    "room": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7e/Structure_Athenaeum.png/revision/latest/scale-to-width-down/64?cb=20220529174249",
+   "fr": "Athenæum",
+   "unlockFr": null,
    "wiki": true
   },
   "Blood Press": {
    "unlock": "Shelter (Quest)",
    "room": "Alchemy Lab",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/48/Structure_BloodPress.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Pressoir de sang",
+   "unlockFr": null,
    "wiki": true
   },
   "By Hand": {
    "unlock": "",
    "room": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7c/Structure_ByHand.png/revision/latest/scale-to-width-down/64?cb=20240520184953",
+   "fr": "À la main",
+   "unlockFr": null,
    "wiki": true
   },
   "Fabricator": {
    "unlock": "Ziva the Engineer",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/5/59/Structure_Fabricator.png/revision/latest/scale-to-width-down/64?cb=20240323235322",
+   "fr": "Poste de fabrication",
+   "unlockFr": "Ziva la savante",
    "wiki": true
   },
   "Furnace": {
    "unlock": "Shelter (Quest)",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b0/Structure_Furnace.png/revision/latest/scale-to-width-down/64?cb=20220529154731",
+   "fr": "Fourneau",
+   "unlockFr": null,
    "wiki": true
   },
   "Gem Cutting Table": {
    "unlock": "Terah the Geomancer",
    "room": "Jeweller's Chamber",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/1c/Structure_GemCuttingTable.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Table de lapidaire",
+   "unlockFr": "Terah la géomancienne",
    "wiki": true
   },
   "Grinder": {
    "unlock": "Shelter (Quest)",
    "room": "Workshop",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d3/Structure_Grinder.png/revision/latest/scale-to-width-down/64?cb=20220529154731",
+   "fr": "Broyeuse",
+   "unlockFr": null,
    "wiki": true
   },
   "Jewelcrafting Table": {
    "unlock": "Raziel the Shepherd",
    "room": "Jeweller's Chamber",
    "icon": "https://static.wikia.nocookie.net/vrising/images/b/b0/Structure_JewelcraftingTable.png/revision/latest/scale-to-width-down/64?cb=20230518074333",
+   "fr": "Table de fabrication de bijoux",
+   "unlockFr": "Raziel le berger",
    "wiki": true
   },
   "Leatherworking Station": {
    "unlock": "Lidia the Chaos Archer",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/28/Structure_LeatherworkingStation.png/revision/latest/scale-to-width-down/64?cb=20230518073849",
+   "fr": "Poste de maroquinerie",
+   "unlockFr": "Lidia l’archère du chaos",
    "wiki": true
   },
   "Loom": {
    "unlock": "Beatrice the Tailor",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/c/cc/Structure_Loom.png/revision/latest/scale-to-width-down/64?cb=20220526220024",
+   "fr": "Métier à tisser",
+   "unlockFr": "Béatrice la couturière",
    "wiki": true
   },
   "Paper Press": {
    "unlock": "",
    "room": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/9/9d/Structure_Paper_Press.png/revision/latest/scale-to-width-down/64?cb=20220526215338",
+   "fr": "Presse à papier",
+   "unlockFr": null,
    "wiki": true
   },
   "Prison Cell": {
    "unlock": "Vincent the Frostbringer",
    "room": "Prison",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7c/Structure_PrisonCell.png/revision/latest/scale-to-width-down/64?cb=20220529172757",
+   "fr": "Cellule de prison",
+   "unlockFr": "Vincent le porte-givre",
    "wiki": true
   },
   "Research Desk": {
    "unlock": "",
    "room": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/8/83/Structure_ResearchDesk.png/revision/latest/scale-to-width-down/64?cb=20220529172756",
+   "fr": "Bureau de recherches",
+   "unlockFr": null,
    "wiki": true
   },
   "Sawmill": {
    "unlock": "Shelter (Quest)",
    "room": "Workshop",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/23/Structure_Sawmill.png/revision/latest/scale-to-width-down/64?cb=20220529154729",
+   "fr": "Scierie",
+   "unlockFr": null,
    "wiki": true
   },
   "Simple Workbench": {
    "unlock": "Shelter (Quest)",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/0/0c/Structure_SimpleWorkbench.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Établi simple",
+   "unlockFr": null,
    "wiki": true
   },
   "Smithy": {
    "unlock": "Quincey the Bandit King",
    "room": "Forge",
    "icon": "https://static.wikia.nocookie.net/vrising/images/2/20/Structure_Smithy.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Atelier de ferronnerie",
+   "unlockFr": "Quincey le roi des bandits",
    "wiki": true
   },
   "Study": {
    "unlock": "",
    "room": "",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/48/Structure_Study.png/revision/latest/scale-to-width-down/64?cb=20220529172627",
+   "fr": "Étude",
+   "unlockFr": null,
    "wiki": true
   },
   "Stygian Summoning Circle": {
    "unlock": "General Cassius the Betrayer",
    "room": "Alchemy Lab",
    "icon": "https://static.wikia.nocookie.net/vrising/images/f/ff/Structure_StygianSummoningCircle.png/revision/latest/scale-to-width-down/64?cb=20240508175944",
+   "fr": "Cercle d’invocation stygien",
+   "unlockFr": "Général Cassius le traître",
    "wiki": true
   },
   "Tailoring Bench": {
    "unlock": "Quincey the Bandit King",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/1/11/Structure_TailoringBench.png/revision/latest/scale-to-width-down/64?cb=20220529154158",
+   "fr": "Banc de couturier",
+   "unlockFr": "Quincey le roi des bandits",
    "wiki": true
   },
   "Tannery": {
    "unlock": "Keely the Frost Archer",
    "room": "Tailor",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/43/Structure_Tannery.png/revision/latest/scale-to-width-down/64?cb=20220529154732",
+   "fr": "Tannerie",
+   "unlockFr": "Keely l’archère du givre",
    "wiki": true
   },
   "The Devourer": {
    "unlock": "Lidia the Chaos Archer",
    "room": "General",
    "icon": "https://static.wikia.nocookie.net/vrising/images/d/d6/Structure_TheDevourer.png/revision/latest/scale-to-width-down/64?cb=20220529172627",
+   "fr": "Le dévoreur",
+   "unlockFr": "Lidia l’archère du chaos",
    "wiki": true
   },
   "Tomb": {
    "unlock": "Goreswine the Ravager",
    "room": "Props",
    "icon": "https://static.wikia.nocookie.net/vrising/images/4/4d/Structure_Tomb.png/revision/latest/scale-to-width-down/64?cb=20220529172627",
+   "fr": "Tombeau",
+   "unlockFr": "Pourceau le ravageur",
    "wiki": true
   },
   "Vermin Nest": {
    "unlock": "Shelter (Quest)",
    "room": "Alchemy Lab",
    "icon": "https://static.wikia.nocookie.net/vrising/images/7/7f/Structure_Vermin_Nest.png/revision/latest/scale-to-width-down/64?cb=20220523213945",
+   "fr": "Nid à vermine",
+   "unlockFr": null,
    "wiki": true
   },
   "Woodworking Bench": {
    "unlock": "Rufus the Foreman",
    "room": "Workshop",
    "icon": "https://static.wikia.nocookie.net/vrising/images/a/ae/Structure_WoodworkingBench.png/revision/latest/scale-to-width-down/64?cb=20220529154730",
+   "fr": "Établi de menuiserie",
+   "unlockFr": "Rufus le contremaître",
    "wiki": true
   }
  }

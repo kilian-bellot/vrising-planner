@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "cache" / "wiki_pages.json"
 ICON_CACHE = ROOT / "cache" / "icons.json"
+LOC_DIR = ROOT / "cache" / "loc"
 OUT = ROOT / "data" / "recipes.json"
 API = "https://vrising.fandom.com/api.php"
 
@@ -315,6 +316,75 @@ def resolve_icons(candidates):
             for item, files in candidates.items()}
 
 
+# ---------------------------------------------------------------- French names
+
+FRENCH_EXTRA = {"By Hand": "À la main"}
+RARITY_FR = {"Rare": "rare", "Epic": "épique", "Legendary": "légendaire"}
+
+
+LINE_BREAK = re.compile(r"\\+n|\n")  # game strings hold escaped "\\n" sequences
+
+
+def first_line(text):
+    """Game strings carry colour tags and a second line ("Bone Castle Key\nLevel 1")."""
+    text = re.sub(r"<[^>]+>", "", text or "")
+    return LINE_BREAK.split(text)[0].replace("\u00a0", " ").strip()
+
+
+def game_text_key(text):
+    return re.sub(r"\s+", " ", first_line(text).replace("\u2019", "'")).lower()
+
+
+def load_strings(lang):
+    path = LOC_DIR / f"{lang}.json"
+    if not path.exists():
+        return []
+    j = json.loads(path.read_text(encoding="utf-8-sig"))
+    return [(n.get("Guid") or n.get("guid"), n.get("Text") or n.get("text"))
+            for n in j.get("Nodes") or j.get("nodes") or []]
+
+
+def french_names(names, pages, follow):
+    """{english name: french name} from the game strings, then the wiki's [[fr:...]] links."""
+    fr_by_guid = dict(load_strings("French"))
+    game = {}
+    for guid, text in load_strings("English"):
+        fr = fr_by_guid.get(guid)
+        if text and fr:
+            game.setdefault(game_text_key(text), first_line(fr))
+    compact = {k.replace(" ", ""): v for k, v in game.items()}  # "Darksilver" vs "Dark Silver"
+
+    def lookup(name):
+        key = game_text_key(name)
+        return game.get(key) or compact.get(key.replace(" ", ""))
+
+    def derived(name):
+        # The game names ancestral gear without its rarity: "Ancestral Axes Shards".
+        m = re.match(r"(Rare|Epic|Legendary) (Ancestral .+?)( Shard)?$", name)
+        if m:
+            shards = lookup(m.group(2) + " Shards")
+            if shards:
+                suffix = " (" + RARITY_FR[m.group(1)] + ")"
+                if m.group(3):
+                    return shards + suffix
+                base = re.sub(r"^Fragments d(e |’|')", "", shards)
+                return base[:1].upper() + base[1:] + suffix
+        m = re.match(r"(.+) Shard$", name)  # legendary weapon shards
+        if m and lookup(m.group(1)):
+            return "Fragment : " + lookup(m.group(1))
+        return None
+
+    out = {}
+    for n in names:
+        fr = FRENCH_EXTRA.get(n) or lookup(n) or derived(n)
+        if not fr:
+            m = re.search(r"\[\[fr:([^\]|]+)\]\]", pages.get(n) or pages.get(follow(n), ""))
+            fr = m.group(1).strip() if m else None
+        if fr:
+            out[n] = fr
+    return out
+
+
 # ---------------------------------------------------------------- build
 
 def build(dump):
@@ -438,6 +508,8 @@ def build(dump):
         candidates[n] = list(dict.fromkeys(files))
     icons = resolve_icons(candidates)
 
+    french = french_names(names | used_stations, pages, follow)
+
     items = {}
     for n in sorted(names):
         kind = frame_meta.get(n, {}).get("type") or infobox.get(n, {}).get("type") or ""
@@ -445,12 +517,17 @@ def build(dump):
         items[n] = {
             "type": kind.capitalize() if kind else "",
             "icon": icons.get(n),
+            "fr": french.get(n),
             "wiki": n in pages or n in redirects,
             "recipes": [r["id"] for r in sorted(own, key=lambda r: rank(n, r))],
             # Only obtainable by breaking other items down: farm it unless asked otherwise.
             "farmByDefault": bool(own) and all(set(r["stations"]) <= NON_DEFAULT_STATIONS for r in own),
         }
-    station_out = {s: {**stations.get(s, {"unlock": "", "room": ""}), "icon": icons.get(s), "wiki": s in pages or s in redirects}
+    unlocks = {stations.get(s, {}).get("unlock", "") for s in used_stations} - {""}
+    unlock_fr = french_names(unlocks, pages, follow)
+    station_out = {s: {**stations.get(s, {"unlock": "", "room": ""}), "icon": icons.get(s), "fr": french.get(s),
+                       "unlockFr": unlock_fr.get(stations.get(s, {}).get("unlock", "")),
+                       "wiki": s in pages or s in redirects}
                    for s in sorted(used_stations)}
     return {"generated": date.today().isoformat(), "items": items, "recipes": rec_list, "stations": station_out}
 
@@ -462,6 +539,8 @@ def main():
     missing_icons = [n for n, i in data["items"].items() if not i["icon"]]
     no_page = [n for n, i in data["items"].items() if not i["wiki"]]
     print(f"{len(data['recipes'])} recipes, {len(data['items'])} items, {len(data['stations'])} stations")
+    no_fr = [n for n, i in data["items"].items() if not i["fr"]]
+    print(f"{len(no_fr)} items without French name", file=sys.stderr)
     print(f"{len(missing_icons)} items without icon, {len(no_page)} items without wiki page", file=sys.stderr)
 
 

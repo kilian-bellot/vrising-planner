@@ -12,6 +12,10 @@ Live page: https://kilian-bellot.github.io/vrising-planner/
 The build list and recipe choices are kept in your browser; the URL also carries the build,
 so it can be shared.
 
+**EN / FR** switch at the top. French item, station and boss names come from the game's own
+string tables (as extracted by the [Bloodcraft](https://github.com/mfoltz/Bloodcraft) mod), with the
+French wiki as fallback; search works in both languages and ignores accents.
+
 ## Data
 
 `data/recipes.json` is a snapshot built from the [V Rising Wiki](https://vrising.fandom.com/)
@@ -22,7 +26,9 @@ python scripts/fetch_wiki.py      # downloads all wiki pages into cache/ (~1 min
 python scripts/build_recipes.py   # parses recipes into data/recipes.json
 ```
 
-then commit `data/recipes.json`. The parser reads every crafting table on the wiki
+then commit `data/recipes.json`. A GitHub Action (`.github/workflows/refresh-data.yml`) does this
+every Monday and commits only when recipes actually changed; it can also be started by hand from
+the Actions tab. The parser reads every crafting table on the wiki
 (item pages and station pages) — see `docs/superpowers/specs/` for the rules
 (default recipe choice, alternatives, byproducts, Devourer-only items).
 

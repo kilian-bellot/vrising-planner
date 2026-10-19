@@ -1,11 +1,15 @@
 import { computeTotals, buildTree, searchItems, recipeFor, outputQty, defaultChoice, RAW } from "./planner.js";
+import { translator, LANGS } from "./i18n.js";
 
 const WIKI = "https://vrising.fandom.com/wiki/";
 const STORE = "vrising-planner/v1";
+const LANG_STORE = "vrising-planner/lang";
 
 let data;
 let build = [];     // [{ item, qty }]
 let choices = {};   // { item: recipeId | "raw" }
+let lang = "en";
+let t = translator(lang);
 
 // ---------------------------------------------------------------- helpers
 
@@ -21,10 +25,16 @@ function h(tag, attrs = {}, ...children) {
   return el;
 }
 
-const fmt = (n) => n.toLocaleString("en-US");
+const fmt = (n) => t.number(n);
 
-function icon(name, small = false) {
-  const src = data.items[name]?.icon ?? data.stations[name]?.icon;
+// Displayed name: French from the game when available, else the English (wiki) name.
+function name(n) {
+  if (lang !== "fr") return n;
+  return data.items[n]?.fr ?? data.stations[n]?.fr ?? n;
+}
+
+function icon(item, small = false) {
+  const src = data.items[item]?.icon ?? data.stations[item]?.icon;
   const img = h("img", { class: "icon" + (small ? " small" : ""), alt: "", loading: "lazy",
     referrerpolicy: "no-referrer", src: src ?? undefined });
   if (!src) img.classList.add("missing");
@@ -32,8 +42,10 @@ function icon(name, small = false) {
   return img;
 }
 
-function link(name) {
-  return h("a", { href: WIKI + encodeURIComponent(name.replaceAll(" ", "_")), target: "_blank", rel: "noopener" }, name);
+// Links go to the English wiki: the French one covers few items.
+function link(item) {
+  return h("a", { href: WIKI + encodeURIComponent(item.replaceAll(" ", "_")), target: "_blank", rel: "noopener",
+    title: lang === "fr" ? item : undefined }, name(item));
 }
 
 // A recipe's identity that survives a data refresh (ids do not).
@@ -42,9 +54,9 @@ function signature(recipe) {
 }
 
 function recipeLabel(recipe, item) {
-  const ins = recipe.inputs.map((i) => `${i.qty} ${i.item}`).join(" + ");
+  const ins = recipe.inputs.map((i) => `${i.qty} ${name(i.item)}`).join(" + ");
   const made = outputQty(recipe, item);
-  return `${ins}${made > 1 ? " → " + made : ""} · ${recipe.stations[0]}`;
+  return `${ins}${made > 1 ? " → " + made : ""} · ${name(recipe.stations[0])}`;
 }
 
 // ---------------------------------------------------------------- state
@@ -72,6 +84,31 @@ function load() {
   build = (fromHash ?? stored.build ?? []).filter((b) => data.items[b.item]);
 }
 
+function initialLang() {
+  try {
+    const saved = localStorage.getItem(LANG_STORE);
+    if (LANGS.includes(saved)) return saved;
+  } catch { /* ignore */ }
+  return navigator.language?.toLowerCase().startsWith("fr") ? "fr" : "en";
+}
+
+function setLang(next) {
+  lang = next;
+  t = translator(lang);
+  try { localStorage.setItem(LANG_STORE, lang); } catch { /* ignore */ }
+  document.documentElement.lang = lang;
+  document.title = t("title");
+  for (const el of document.querySelectorAll("[data-i18n]")) el.textContent = t(el.dataset.i18n);
+  searchInput.placeholder = t("searchPlaceholder");
+  searchInput.setAttribute("aria-label", t("searchLabel"));
+  for (const b of document.querySelectorAll("[data-lang]")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+  if (data) {
+    document.getElementById("footer-text").textContent = t("footer", data.generated);
+    renderSearch();
+    render();
+  }
+}
+
 function addItems(names) {
   for (const item of names) {
     const existing = build.find((b) => b.item === item);
@@ -97,19 +134,19 @@ let matches = [];
 let active = -1;
 
 function renderSearch() {
-  matches = searchItems(data, searchInput.value, 60);
+  matches = searchItems(data, searchInput.value, 60, name);
   active = matches.length ? 0 : -1;
-  results.replaceChildren(...matches.map((name, i) => h("li", {
+  results.replaceChildren(...matches.map((item, i) => h("li", {
     class: i === active ? "active" : "", role: "option",
-    onmousedown: (e) => { e.preventDefault(); pick([name]); },
-  }, icon(name, true), h("span", { class: "name" }, name), h("span", { class: "type" }, data.items[name].type))));
+    onmousedown: (e) => { e.preventDefault(); pick([item]); },
+  }, icon(item, true), h("span", { class: "name" }, name(item)), h("span", { class: "type" }, t.type(data.items[item].type)))));
   results.hidden = !matches.length;
   if (searchInput.value.trim() && !matches.length) {
-    results.replaceChildren(h("li", {}, h("span", { class: "muted" }, "No craftable item matches.")));
+    results.replaceChildren(h("li", {}, h("span", { class: "muted" }, t("noMatch"))));
     results.hidden = false;
   }
   addAll.hidden = matches.length < 2;
-  addAll.textContent = `Add all ${matches.length} matches`;
+  addAll.textContent = t("addAll", matches.length);
 }
 
 searchInput.addEventListener("input", renderSearch);
@@ -141,17 +178,17 @@ function pick(names) {
 function batchHint(entry) {
   const recipe = recipeFor(data, entry.item, choices);
   const per = recipe ? outputQty(recipe, entry.item) : 1;
-  return per > 1 ? h("span", { class: "alt hint" }, ` · ${per} per craft`) : null;
+  return per > 1 ? h("span", { class: "alt hint" }, ` · ${t("perCraft", per)}`) : null;
 }
 
 function renderBuild() {
   const list = document.getElementById("build");
   list.replaceChildren(...build.map((entry) => h("li", {},
     icon(entry.item, true),
-    h("span", { class: "name" }, entry.item, batchHint(entry)),
-    h("input", { type: "number", min: "1", value: entry.qty, "aria-label": `Quantity of ${entry.item}`,
+    h("span", { class: "name" }, name(entry.item), batchHint(entry)),
+    h("input", { type: "number", min: "1", value: entry.qty, "aria-label": t("quantityOf", name(entry.item)),
       onchange: (e) => { entry.qty = Math.max(1, Math.floor(Number(e.target.value)) || 1); render(); } }),
-    h("button", { class: "icon-btn", title: "Remove", "aria-label": `Remove ${entry.item}`,
+    h("button", { class: "icon-btn", title: t("remove"), "aria-label": t("removeItem", name(entry.item)),
       onclick: () => { build = build.filter((b) => b !== entry); render(); } }, "×"),
   )));
   const empty = !build.length;
@@ -163,9 +200,10 @@ function renderBuild() {
 
 document.getElementById("clear").addEventListener("click", () => { build = []; render(); });
 document.getElementById("share").addEventListener("click", async () => {
-  try { await navigator.clipboard.writeText(location.href); toast("Link copied"); }
-  catch { toast("Copy the address bar to share this build"); }
+  try { await navigator.clipboard.writeText(location.href); toast(t("linkCopied")); }
+  catch { toast(t("copyAddress")); }
 });
+for (const b of document.querySelectorAll("[data-lang]")) b.addEventListener("click", () => setLang(b.dataset.lang));
 
 function toast(text) {
   const el = h("div", { class: "toast", role: "status" }, text);
@@ -186,16 +224,16 @@ function recipeSelect(item) {
   if (ids.length === 1) {
     const farmed = current === RAW;
     return h("button", { class: "link toggle", onclick: (e) => { e.preventDefault(); setChoice(item, farmed ? ids[0] : RAW); } },
-      farmed ? "craft instead" : "farm instead");
+      t(farmed ? "craftInstead" : "farmInstead"));
   }
-  return h("select", { "aria-label": `Recipe for ${item}`, onchange: (e) => setChoice(item, e.target.value) },
+  return h("select", { "aria-label": t("recipeFor", name(item)), onchange: (e) => setChoice(item, e.target.value) },
     ids.map((id) => h("option", { value: id, selected: id === current }, recipeLabel(data.recipes[id], item))),
-    h("option", { value: RAW, selected: current === RAW }, "Farm it (don't craft)"));
+    h("option", { value: RAW, selected: current === RAW }, t("farmIt")));
 }
 
 function renderTotals() {
   const totals = computeTotals(data, build, choices);
-  const byQty = (m) => [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const byQty = (m) => [...m.entries()].sort((a, b) => b[1] - a[1] || name(a[0]).localeCompare(name(b[0])));
 
   document.getElementById("farm").replaceChildren(...byQty(totals.raw).map(([i, q]) => chip(i, q)));
   document.getElementById("byproducts-wrap").hidden = !totals.byproducts.size;
@@ -203,12 +241,13 @@ function renderTotals() {
 
   document.getElementById("stations").replaceChildren(...totals.stations.map((s) => {
     const info = data.stations[s.name] ?? {};
+    const unlock = (lang === "fr" && info.unlockFr) || info.unlock;
     return h("tr", {},
       h("td", {}, h("div", { class: "station" }, icon(s.name, true),
-        h("div", {}, s.name === "By Hand" ? "By hand" : link(s.name),
-          s.alternatives.size ? h("div", { class: "alt" }, "or " + [...s.alternatives].join(", ")) : null))),
-      h("td", {}, info.unlock || (s.name === "By Hand" ? "—" : "Default")),
-      h("td", { class: "alt" }, s.items.join(", ")));
+        h("div", {}, s.name === "By Hand" ? name(s.name) : link(s.name),
+          s.alternatives.size ? h("div", { class: "alt" }, t("or") + " " + [...s.alternatives].map(name).join(", ")) : null))),
+      h("td", {}, unlock || (s.name === "By Hand" ? "—" : t("default"))),
+      h("td", { class: "alt" }, s.items.map(name).join(", ")));
   }));
 }
 
@@ -219,12 +258,14 @@ function treeNode(node, depth) {
     link(node.item),
   ];
   if (node.recipe) {
-    head.push(h("span", { class: "at" }, `${fmt(node.crafts)}× at ${node.recipe.stations[0]}` +
-      (node.recipe.stations.length > 1 ? ` (or ${node.recipe.stations.slice(1).join(", ")})` : "")));
-    const made = node.crafts * outputQty(node.recipe, node.item);
-    if (made > node.qty) head.push(h("span", { class: "badge", title: `One craft makes ${outputQty(node.recipe, node.item)}` }, `makes ${fmt(made)}`));
+    const [main, ...others] = node.recipe.stations;
+    head.push(h("span", { class: "at" }, t("at", fmt(node.crafts), name(main)) +
+      (others.length ? ` (${t("or")} ${others.map(name).join(", ")})` : "")));
+    const per = outputQty(node.recipe, node.item);
+    const made = node.crafts * per;
+    if (made > node.qty) head.push(h("span", { class: "badge", title: t("oneCraftMakes", per) }, t("makes", fmt(made))));
   } else {
-    head.push(h("span", { class: "badge raw" }, node.cycle ? "farm (loop)" : "farm"));
+    head.push(h("span", { class: "badge raw" }, t(node.cycle ? "farmLoop" : "farm")));
   }
   // Farming the end product itself makes no sense: no control on a single-recipe root.
   if (node.options.length && !node.cycle && !(depth === 0 && node.options.length === 1)) head.push(recipeSelect(node.item));
@@ -248,16 +289,15 @@ function render() {
 // ---------------------------------------------------------------- start
 
 async function start() {
+  setLang(initialLang());
   const resp = await fetch("data/recipes.json");
   data = await resp.json();
-  document.getElementById("data-date").textContent = data.generated;
   load();
-  render();
-  // recipeFor is re-exported for debugging in the console.
+  setLang(lang);
+  // recipeFor is exposed for debugging in the console.
   Object.assign(window, { planner: { data, recipeFor: (item) => recipeFor(data, item, choices) } });
 }
 
 start().catch((err) => {
-  document.querySelector("main").prepend(h("p", { class: "panel" },
-    "Could not load data/recipes.json — open the page through a web server (see README). ", String(err)));
+  document.querySelector("main").prepend(h("p", { class: "panel" }, t("loadError"), String(err)));
 });

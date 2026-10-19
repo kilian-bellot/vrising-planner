@@ -11,14 +11,20 @@
 </head>
 <body>
   <header>
-    <h1>V Rising Craft Planner</h1>
-    <p class="tagline">Add the items of your build, get the whole crafting chain, the resources to farm and the stations to use.</p>
+    <div class="header-row">
+      <h1 data-i18n="title">V Rising Craft Planner</h1>
+      <div class="lang-switch" role="group" aria-label="Language / Langue">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+    </div>
+    <p class="tagline" data-i18n="tagline">Add the items of your build, get the whole crafting chain, the resources to farm and the stations to use.</p>
   </header>
 
   <main>
     <aside class="sidebar">
       <section class="panel">
-        <h2>Add items</h2>
+        <h2 data-i18n="addItems">Add items</h2>
         <div class="search">
           <input id="search" type="search" placeholder="Search: dawnthorn, sanguine sword, amulet…" autocomplete="off" aria-label="Search items">
           <ul id="results" class="results" hidden></ul>
@@ -28,35 +34,35 @@
 
       <section class="panel">
         <div class="panel-head">
-          <h2>Build</h2>
-          <button id="clear" class="link" hidden>Clear</button>
+          <h2 data-i18n="build">Build</h2>
+          <button id="clear" class="link" hidden data-i18n="clear">Clear</button>
         </div>
         <ul id="build" class="build"></ul>
-        <p id="build-empty" class="muted">Nothing yet. Search an item and add it — a whole armour set works too.</p>
-        <button id="share" class="secondary" hidden>Copy link to this build</button>
+        <p id="build-empty" class="muted" data-i18n="buildEmpty">Nothing yet. Search an item and add it — a whole armour set works too.</p>
+        <button id="share" class="secondary" hidden data-i18n="share">Copy link to this build</button>
       </section>
     </aside>
 
     <div id="output" class="output" hidden>
       <section class="panel">
-        <h2>To farm</h2>
+        <h2 data-i18n="toFarm">To farm</h2>
         <ul id="farm" class="chips"></ul>
         <div id="byproducts-wrap" hidden>
-          <h3>You will also get</h3>
+          <h3 data-i18n="alsoGet">You will also get</h3>
           <ul id="byproducts" class="chips small"></ul>
         </div>
       </section>
 
       <section class="panel">
-        <h2>Crafting tree</h2>
-        <p class="muted">Per item. Pick another recipe, or “farm it” to stop the chain there — the choice applies everywhere.</p>
+        <h2 data-i18n="tree">Crafting tree</h2>
+        <p class="muted" data-i18n="treeHelp">Per item. Pick another recipe, or “farm it” to stop the chain there — the choice applies everywhere.</p>
         <div id="trees"></div>
       </section>
 
       <section class="panel">
-        <h2>Stations</h2>
+        <h2 data-i18n="stations">Stations</h2>
         <table class="stations">
-          <thead><tr><th>Station</th><th>Unlocked by</th><th>Used for</th></tr></thead>
+          <thead><tr><th data-i18n="station">Station</th><th data-i18n="unlockedBy">Unlocked by</th><th data-i18n="usedFor">Used for</th></tr></thead>
           <tbody id="stations"></tbody>
         </table>
       </section>
@@ -64,10 +70,10 @@
   </main>
 
   <footer>
-    <p>Data from the <a href="https://vrising.fandom.com/" target="_blank" rel="noopener">V Rising Wiki</a> on Fandom,
-      licensed <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA</a>
-      — snapshot of <span id="data-date">…</span>. Wiki pages sometimes disagree; check the linked page when a number looks off.
-      Not affiliated with Stunlock Studios.</p>
+    <p id="footer-text"></p>
+    <p><a href="https://vrising.fandom.com/" target="_blank" rel="noopener">V Rising Wiki</a> ·
+      <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA</a> ·
+      <a href="https://github.com/kilian-bellot/vrising-planner" target="_blank" rel="noopener">GitHub</a></p>
   </footer>
 </body>
 </html>

@@ -27,6 +27,10 @@ h3 { font-size: .9rem; color: var(--muted); margin-top: 14px; }
 
 header { padding: 20px 16px 8px; max-width: 1400px; margin: 0 auto; }
 header h1 { font-size: 1.5rem; color: var(--accent); font-family: Georgia, "Times New Roman", serif; }
+.header-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.lang-switch { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; flex: none; }
+.lang-switch button { background: var(--panel); border-radius: 0; padding: 5px 10px; font-size: .85rem; color: var(--muted); }
+.lang-switch button[aria-pressed="true"] { background: var(--accent); color: var(--text); }
 .tagline { margin: 4px 0 0; color: var(--muted); }
 
 main {

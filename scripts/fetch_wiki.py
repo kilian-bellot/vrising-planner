@@ -1,6 +1,7 @@
-"""Download the wikitext of every article on the V Rising Fandom wiki.
+"""Download the wikitext of every article on the V Rising Fandom wiki,
+plus the game's English/French string tables (for French item names).
 
-Output: cache/wiki_pages.json  ({title: wikitext}), consumed by build_recipes.py.
+Output: cache/wiki_pages.json and cache/loc/*.json, consumed by build_recipes.py.
 """
 import json
 import time
@@ -10,12 +11,15 @@ from pathlib import Path
 
 API = "https://vrising.fandom.com/api.php"
 OUT = Path(__file__).resolve().parent.parent / "cache" / "wiki_pages.json"
+# Game string tables extracted by the Bloodcraft mod (same GUIDs in every language).
+LOC_URL = "https://raw.githubusercontent.com/mfoltz/Bloodcraft/HEAD/Resources/Localization/{}.json"
+LOC_LANGUAGES = ("English", "French")
 
 
 def call(params):
     params = {**params, "format": "json", "formatversion": "2"}
     url = API + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "v-rising-tools craft planner"})
+    req = urllib.request.Request(url, headers={"User-Agent": "vrising-planner"})
     for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
@@ -77,5 +81,17 @@ def main():
     print(f"saved {len(pages)} pages, {len(redirects)} redirects -> {OUT}")
 
 
+def fetch_localization():
+    for lang in LOC_LANGUAGES:
+        req = urllib.request.Request(LOC_URL.format(lang), headers={"User-Agent": "vrising-planner"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = resp.read()
+        target = OUT.parent / "loc" / f"{lang}.json"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(body)
+        print(f"saved {lang} strings -> {target}")
+
+
 if __name__ == "__main__":
     main()
+    fetch_localization()

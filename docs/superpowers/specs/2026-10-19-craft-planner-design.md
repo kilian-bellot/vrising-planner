@@ -52,6 +52,15 @@ that is not made at The Devourer; else the first remaining one. Each item with
 several recipes gets a selector in the tree, plus "farm it" (treat as raw).
 Choices are remembered in localStorage, as is the build list.
 
+## Changes after first release (2026-10-19)
+
+- Panels: To farm, Crafting tree, Stations. "Crafting steps" was removed (duplicated the tree).
+- "N per craft" / "makes N" hints: batch recipes (Power Core x2) otherwise look stuck between 1 and 2.
+- EN/FR switch. French names: game string tables (English and French share GUIDs) from the
+  Bloodcraft mod repo, then wiki `[[fr:...]]` links; derived names for rarity-prefixed ancestral
+  gear and legendary shards. Search matches both languages, accent-insensitive.
+- Weekly GitHub Action refreshes the data and commits when recipes change.
+
 ## Planner maths (planner.js, pure functions)
 
 - Totals: demand per item propagated in topological order of the chosen
