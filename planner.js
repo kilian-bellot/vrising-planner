@@ -2,6 +2,7 @@
 //
 // choices: { [item]: recipeId | "raw" } — overrides of the default recipe.
 // build:   [{ item, qty }] — the end products wanted.
+// have:    Set of items already owned: neither crafted nor farmed, their chain is skipped.
 
 export const RAW = "raw";
 
@@ -23,7 +24,7 @@ export function outputQty(recipe, item) {
 
 // Items in an order where every item comes before the items it is made from.
 // An input that leads back to an item being expanded closes a cycle: that input is taken as raw.
-function plan(data, build, choices) {
+function plan(data, build, choices, have) {
   const order = [];
   const done = new Set();
   const onPath = new Set();
@@ -32,7 +33,7 @@ function plan(data, build, choices) {
   const visit = (item) => {
     if (done.has(item)) return;
     onPath.add(item);
-    const recipe = recipeFor(data, item, choices);
+    const recipe = have.has(item) ? null : recipeFor(data, item, choices);
     for (const input of recipe?.inputs ?? []) {
       if (onPath.has(input.item)) cyclic.add(item + "\u0000" + input.item);
       else visit(input.item);
@@ -45,17 +46,19 @@ function plan(data, build, choices) {
   return { order: order.reverse(), cyclic };
 }
 
-export function computeTotals(data, build, choices = {}) {
-  const { order, cyclic } = plan(data, build, choices);
+export function computeTotals(data, build, choices = {}, have = new Set()) {
+  const { order, cyclic } = plan(data, build, choices, have);
   const demand = new Map();
   for (const { item, qty } of build) demand.set(item, (demand.get(item) ?? 0) + qty);
 
   const raw = new Map();
+  const owned = new Map();
   const byproducts = new Map();
   const steps = new Map();
   for (const item of order) {
     const need = demand.get(item) ?? 0;
     if (need <= 0) continue;
+    if (have.has(item)) { owned.set(item, need); continue; }
     const recipe = recipeFor(data, item, choices);
     if (!recipe) { raw.set(item, (raw.get(item) ?? 0) + need); continue; }
     const crafts = Math.ceil(need / outputQty(recipe, item));
@@ -87,6 +90,7 @@ export function computeTotals(data, build, choices = {}) {
 
   return {
     raw,
+    owned,
     byproducts,
     steps: [...steps.values()].sort((a, b) =>
       a.level - b.level || a.recipe.stations[0].localeCompare(b.recipe.stations[0]) || a.item.localeCompare(b.item)),
@@ -95,15 +99,16 @@ export function computeTotals(data, build, choices = {}) {
 }
 
 // Tree for one build entry, rounded on its own (the totals are the merged reference).
-export function buildTree(data, item, qty, choices = {}, path = new Set()) {
+export function buildTree(data, item, qty, choices = {}, have = new Set(), path = new Set()) {
   const cycle = path.has(item);
-  const recipe = cycle ? null : recipeFor(data, item, choices);
-  const node = { item, qty, recipe, crafts: 0, children: [], cycle,
+  const owned = have.has(item);
+  const recipe = cycle || owned ? null : recipeFor(data, item, choices);
+  const node = { item, qty, recipe, crafts: 0, children: [], cycle, owned,
     options: data.items[item]?.recipes ?? [] };
   if (!recipe) return node;
   node.crafts = Math.ceil(qty / outputQty(recipe, item));
   const next = new Set(path).add(item);
-  node.children = recipe.inputs.map((i) => buildTree(data, i.item, node.crafts * i.qty, choices, next));
+  node.children = recipe.inputs.map((i) => buildTree(data, i.item, node.crafts * i.qty, choices, have, next));
   return node;
 }
 

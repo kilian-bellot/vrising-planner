@@ -60,6 +60,9 @@ Choices are remembered in localStorage, as is the build list.
   Bloodcraft mod repo, then wiki `[[fr:...]]` links; derived names for rarity-prefixed ancestral
   gear and legendary shards. Search matches both languages, accent-insensitive.
 - Weekly GitHub Action refreshes the data and commits when recipes change.
+- "I have it" toggle per tree node (user request, replaces "no inventory tracking"): the item and
+  its whole chain are skipped and listed under "Already have"; yes/no, no quantities. Kept apart from
+  recipe choices so undoing it restores the chosen recipe.
 
 ## Planner maths (planner.js, pure functions)
 

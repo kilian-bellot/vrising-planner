@@ -5,6 +5,7 @@ Plan a V Rising build — weapons, armour set, jewelry, potions — and see ever
 - **To farm**: raw resources for the whole build, merged.
 - **Crafting tree**: per item, what to craft where and how many times, with a recipe picker
   where the wiki lists several ways (or “farm it” to stop the chain there, e.g. when you loot Leather).
+  “I have it” drops an item you already own with everything below it.
 - **Stations**: every station used, with the boss that unlocks it.
 
 Live page: https://kilian-bellot.github.io/vrising-planner/

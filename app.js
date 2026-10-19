@@ -8,6 +8,7 @@ const LANG_STORE = "vrising-planner/lang";
 let data;
 let build = [];     // [{ item, qty }]
 let choices = {};   // { item: recipeId | "raw" }
+let have = new Set(); // items already owned: skipped with their chain
 let lang = "en";
 let t = translator(lang);
 
@@ -64,7 +65,7 @@ function recipeLabel(recipe, item) {
 function save() {
   const saved = Object.fromEntries(Object.entries(choices).map(([item, c]) =>
     [item, c === RAW ? RAW : signature(data.recipes[c])]));
-  try { localStorage.setItem(STORE, JSON.stringify({ build, choices: saved })); } catch { /* private mode */ }
+  try { localStorage.setItem(STORE, JSON.stringify({ build, choices: saved, have: [...have] })); } catch { /* private mode */ }
   history.replaceState(null, "", build.length ? "#build=" + encodeURIComponent(JSON.stringify(build.map((b) => [b.item, b.qty]))) : location.pathname);
 }
 
@@ -76,6 +77,7 @@ function load() {
     const id = data.items[item]?.recipes.find((r) => signature(data.recipes[r]) === sig);
     if (id !== undefined) choices[item] = id;
   }
+  have = new Set((stored.have ?? []).filter((item) => data.items[item]));
   let fromHash = null;
   const m = location.hash.match(/^#build=(.+)$/);
   if (m) {
@@ -115,6 +117,12 @@ function addItems(names) {
     if (existing) existing.qty += 1;
     else build.push({ item, qty: 1 });
   }
+  render();
+}
+
+function toggleHave(item) {
+  if (have.has(item)) have.delete(item);
+  else have.add(item);
   render();
 }
 
@@ -232,12 +240,19 @@ function recipeSelect(item) {
 }
 
 function renderTotals() {
-  const totals = computeTotals(data, build, choices);
+  const totals = computeTotals(data, build, choices, have);
   const byQty = (m) => [...m.entries()].sort((a, b) => b[1] - a[1] || name(a[0]).localeCompare(name(b[0])));
 
   document.getElementById("farm").replaceChildren(...byQty(totals.raw).map(([i, q]) => chip(i, q)));
   document.getElementById("byproducts-wrap").hidden = !totals.byproducts.size;
   document.getElementById("byproducts").replaceChildren(...byQty(totals.byproducts).map(([i, q]) => chip(i, q)));
+  document.getElementById("owned-wrap").hidden = !totals.owned.size;
+  document.getElementById("owned").replaceChildren(...byQty(totals.owned).map(([i, q]) => {
+    const li = chip(i, q);
+    li.append(h("button", { class: "icon-btn", title: t("needIt"), "aria-label": t("needIt") + " — " + name(i),
+      onclick: () => toggleHave(i) }, "×"));
+    return li;
+  }));
 
   document.getElementById("stations").replaceChildren(...totals.stations.map((s) => {
     const info = data.stations[s.name] ?? {};
@@ -264,11 +279,16 @@ function treeNode(node, depth) {
     const per = outputQty(node.recipe, node.item);
     const made = node.crafts * per;
     if (made > node.qty) head.push(h("span", { class: "badge", title: t("oneCraftMakes", per) }, t("makes", fmt(made))));
+  } else if (node.owned) {
+    head.push(h("span", { class: "badge have" }, t("haveBadge")));
   } else {
     head.push(h("span", { class: "badge raw" }, t(node.cycle ? "farmLoop" : "farm")));
   }
   // Farming the end product itself makes no sense: no control on a single-recipe root.
-  if (node.options.length && !node.cycle && !(depth === 0 && node.options.length === 1)) head.push(recipeSelect(node.item));
+  if (!node.owned && node.options.length && !node.cycle && !(depth === 0 && node.options.length === 1)) head.push(recipeSelect(node.item));
+  if (depth > 0) head.push(h("button", { class: "link toggle", onclick: (e) => { e.preventDefault(); toggleHave(node.item); } },
+    t(node.owned ? "needIt" : "haveIt")));
+  if (node.owned) return h("li", { class: "node owned" }, h("div", { class: "leaf" }, head));
   if (!node.children.length) return h("li", { class: "node" }, h("div", { class: "leaf" }, head));
   return h("li", { class: "node" }, h("details", { open: depth < 3 },
     h("summary", {}, head),
@@ -277,7 +297,7 @@ function treeNode(node, depth) {
 
 function renderTrees() {
   document.getElementById("trees").replaceChildren(...build.map((entry) =>
-    h("div", { class: "tree" }, h("ul", {}, treeNode(buildTree(data, entry.item, entry.qty, choices), 0)))));
+    h("div", { class: "tree" }, h("ul", {}, treeNode(buildTree(data, entry.item, entry.qty, choices, have), 0)))));
 }
 
 function render() {

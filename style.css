@@ -136,6 +136,10 @@ button.icon-btn:hover { color: var(--accent); }
 .node .toggle { font-size: .8rem; }
 .badge { font-size: .75rem; padding: 1px 6px; border-radius: 10px; background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); }
 .badge.raw { color: var(--accent-2); }
+.badge.have { color: #7fc98f; border-color: #3d5c44; }
+.node.owned > .leaf > a, .node.owned > .leaf > .qty, .node.owned > .leaf > .icon { opacity: .45; }
+.node.owned > .leaf > a { text-decoration: line-through; }
+.owned-list li { opacity: .75; }
 
 footer { max-width: 1400px; margin: 0 auto; padding: 16px; color: var(--muted); font-size: .85rem; }
 

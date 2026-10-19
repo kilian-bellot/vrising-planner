@@ -60,6 +60,16 @@ test("items only made by breaking others down are farmed unless chosen", () => {
   assert.equal(computeTotals(d, [{ item: "Shard", qty: 1 }], { Shard: 6 }).raw.get("Ore"), 240);
 });
 
+test("owned items are skipped with their whole chain", () => {
+  const t = computeTotals(fixture, [{ item: "Sword", qty: 1 }], {}, new Set(["Ingot"]));
+  assert.deepEqual(Object.fromEntries(t.raw), { Wood: 160 });
+  assert.deepEqual(Object.fromEntries(t.owned), { Ingot: 12 });
+  assert.deepEqual(t.stations.map((s) => s.name), ["Anvil", "Sawmill"]);
+  const tree = buildTree(fixture, "Sword", 1, {}, new Set(["Ingot"]));
+  assert.equal(tree.children[0].owned, true);
+  assert.deepEqual(tree.children[0].children, []);
+});
+
 test("an unknown choice falls back to the default recipe", () => {
   const t = computeTotals(fixture, [{ item: "Ingot", qty: 1 }], { Ingot: 99 });
   assert.equal(t.raw.get("Ore"), 20);
