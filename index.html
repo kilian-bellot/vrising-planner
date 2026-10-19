@@ -58,7 +58,13 @@
       </section>
 
       <section class="panel">
-        <h2 data-i18n="tree">Crafting tree</h2>
+        <div class="panel-head">
+          <h2 data-i18n="tree">Crafting tree</h2>
+          <div class="tree-tools">
+            <button id="expand-all" class="link" data-i18n="expandAll">Expand all</button>
+            <button id="collapse-all" class="link" data-i18n="collapseAll">Collapse all</button>
+          </div>
+        </div>
         <p class="muted" data-i18n="treeHelp">Per item. Pick another recipe, or “farm it” to stop the chain there — the choice applies everywhere.</p>
         <div id="trees"></div>
       </section>

@@ -211,6 +211,12 @@ document.getElementById("share").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText(location.href); toast(t("linkCopied")); }
   catch { toast(t("copyAddress")); }
 });
+for (const [id, open] of [["expand-all", true], ["collapse-all", false]]) {
+  // Collapse keeps the end products' first level visible.
+  document.getElementById(id).addEventListener("click", () => {
+    for (const d of document.querySelectorAll("#trees details")) d.open = open || !d.parentElement.closest("details");
+  });
+}
 for (const b of document.querySelectorAll("[data-lang]")) b.addEventListener("click", () => setLang(b.dataset.lang));
 
 function toast(text) {
@@ -290,7 +296,7 @@ function treeNode(node, depth) {
     t(node.owned ? "needIt" : "haveIt")));
   if (node.owned) return h("li", { class: "node owned" }, h("div", { class: "leaf" }, head));
   if (!node.children.length) return h("li", { class: "node" }, h("div", { class: "leaf" }, head));
-  return h("li", { class: "node" }, h("details", { open: depth < 3 },
+  return h("li", { class: "node" }, h("details", { open: true },
     h("summary", {}, head),
     h("ul", {}, node.children.map((c) => treeNode(c, depth + 1)))));
 }

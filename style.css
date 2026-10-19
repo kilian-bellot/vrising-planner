@@ -56,6 +56,7 @@ main {
   min-width: 0;
 }
 .panel > h2 { margin-bottom: 10px; }
+.tree-tools { display: flex; gap: 14px; font-size: .85rem; }
 .panel-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
 .muted { color: var(--muted); margin: 0 0 10px; font-size: .9rem; }
 
