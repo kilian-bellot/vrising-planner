@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V Rising Craft Planner</title>
+  <meta name="description" content="Plan a V Rising build: full crafting chain, resources to farm and stations needed.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Cpath d=%22M16 2 C10 10 6 15 6 20 a10 10 0 0 0 20 0 C26 15 22 10 16 2Z%22 fill=%22%23c8323c%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>V Rising Craft Planner</h1>
+    <p class="tagline">Add the items of your build, get the whole crafting chain, the resources to farm and the stations to use.</p>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Add items</h2>
+        <div class="search">
+          <input id="search" type="search" placeholder="Search: dawnthorn, sanguine sword, amulet…" autocomplete="off" aria-label="Search items">
+          <ul id="results" class="results" hidden></ul>
+          <button id="add-all" class="secondary" hidden></button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Build</h2>
+          <button id="clear" class="link" hidden>Clear</button>
+        </div>
+        <ul id="build" class="build"></ul>
+        <p id="build-empty" class="muted">Nothing yet. Search an item and add it — a whole armour set works too.</p>
+        <button id="share" class="secondary" hidden>Copy link to this build</button>
+      </section>
+    </aside>
+
+    <div id="output" class="output" hidden>
+      <section class="panel">
+        <h2>To farm</h2>
+        <ul id="farm" class="chips"></ul>
+        <div id="byproducts-wrap" hidden>
+          <h3>You will also get</h3>
+          <ul id="byproducts" class="chips small"></ul>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Stations</h2>
+        <table class="stations">
+          <thead><tr><th>Station</th><th>Unlocked by</th><th>Used for</th></tr></thead>
+          <tbody id="stations"></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Crafting steps</h2>
+        <p class="muted">All items of the build merged, from raw resources up to the end products.</p>
+        <div id="steps"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Crafting tree</h2>
+        <p class="muted">Per item. Pick another recipe, or “farm it” to stop the chain there — the choice applies everywhere.</p>
+        <div id="trees"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data from the <a href="https://vrising.fandom.com/" target="_blank" rel="noopener">V Rising Wiki</a> on Fandom,
+      licensed <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA</a>
+      — snapshot of <span id="data-date">…</span>. Wiki pages sometimes disagree; check the linked page when a number looks off.
+      Not affiliated with Stunlock Studios.</p>
+  </footer>
+</body>
+</html>

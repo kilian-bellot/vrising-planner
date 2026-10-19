@@ -1,0 +1,46 @@
+# V Rising Craft Planner
+
+Plan a V Rising build — weapons, armour set, jewelry, potions — and see everything it takes:
+
+- **To farm**: raw resources for the whole build, merged.
+- **Stations**: every station used, with the boss that unlocks it.
+- **Crafting steps**: what to craft where and how many times, from raw resources up.
+- **Crafting tree**: per item, with a recipe picker where the wiki lists several ways
+  (or “farm it” to stop the chain there, e.g. when you loot Leather).
+
+Live page: https://kilian-bellot.github.io/vrising-planner/
+
+The build list and recipe choices are kept in your browser; the URL also carries the build,
+so it can be shared.
+
+## Data
+
+`data/recipes.json` is a snapshot built from the [V Rising Wiki](https://vrising.fandom.com/)
+(content licensed [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)). Refresh it with:
+
+```sh
+python scripts/fetch_wiki.py      # downloads all wiki pages into cache/ (~1 min)
+python scripts/build_recipes.py   # parses recipes into data/recipes.json
+```
+
+then commit `data/recipes.json`. The parser reads every crafting table on the wiki
+(item pages and station pages) — see `docs/superpowers/specs/` for the rules
+(default recipe choice, alternatives, byproducts, Devourer-only items).
+
+Wiki pages sometimes disagree with each other (e.g. 6 vs 8 Leather); both versions
+are kept and selectable, the item's own page wins by default.
+
+## Develop
+
+No build step. Serve the folder and open it:
+
+```sh
+python -m http.server 8000        # then http://localhost:8000
+```
+
+Tests:
+
+```sh
+python -m unittest discover -s tests   # wiki parser
+node --test tests/planner.test.js      # planner maths
+```
