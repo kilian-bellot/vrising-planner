@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-26",
  "items": {
   "Alucard's Boots": {
    "type": "Armour",
@@ -2805,7 +2805,7 @@
    "fr": "Âme sanguine mineure",
    "wiki": true,
    "recipes": [
-    517
+    516
    ],
    "farmByDefault": false
   },
@@ -3399,7 +3399,7 @@
    "fr": "Jambières Nuit d’opulence",
    "wiki": true,
    "recipes": [
-    511
+    510
    ],
    "farmByDefault": false
   },
@@ -3409,7 +3409,7 @@
    "fr": "Habit Nuit d’opulence",
    "wiki": true,
    "recipes": [
-    510
+    509
    ],
    "farmByDefault": false
   },
@@ -3419,7 +3419,7 @@
    "fr": "Solerets Nuit d’opulence",
    "wiki": true,
    "recipes": [
-    513
+    512
    ],
    "farmByDefault": false
   },
@@ -3429,7 +3429,7 @@
    "fr": "Brassards Nuit d’opulence",
    "wiki": true,
    "recipes": [
-    512
+    511
    ],
    "farmByDefault": false
   },
@@ -3439,7 +3439,7 @@
    "fr": "Visage Nuit d’opulence",
    "wiki": true,
    "recipes": [
-    509
+    508
    ],
    "farmByDefault": false
   },
@@ -3531,7 +3531,7 @@
    "fr": "Voile de fantôme",
    "wiki": true,
    "recipes": [
-    508
+    517
    ],
    "farmByDefault": false
   },
@@ -3569,11 +3569,11 @@
    "fr": "Planche",
    "wiki": true,
    "recipes": [
-    514,
+    513,
     391,
     393,
     503,
-    515
+    514
    ],
    "farmByDefault": false
   },
@@ -4428,7 +4428,7 @@
    "fr": "Sciure",
    "wiki": true,
    "recipes": [
-    514
+    513
    ],
    "farmByDefault": false
   },
@@ -4481,7 +4481,7 @@
    "fr": "Bois sculpté",
    "wiki": true,
    "recipes": [
-    516
+    515
    ],
    "farmByDefault": false
   },
@@ -5249,7 +5249,7 @@
    "wiki": true,
    "recipes": [
     85,
-    515
+    514
    ],
    "farmByDefault": false
   },
@@ -12367,8 +12367,8 @@
     "Copper Ingot",
     "Coarse Thread",
     "Leather",
-    "Shadewalker Armour Set",
-    "Simple Workbench"
+    "Simple Workbench",
+    "Shadewalker Armour Set"
    ],
    "id": 220
   },
@@ -12406,8 +12406,8 @@
     "Copper Ingot",
     "Coarse Thread",
     "Leather",
-    "Shadewalker Armour Set",
-    "Simple Workbench"
+    "Simple Workbench",
+    "Shadewalker Armour Set"
    ],
    "id": 221
   },
@@ -12445,8 +12445,8 @@
     "Copper Ingot",
     "Coarse Thread",
     "Leather",
-    "Shadewalker Armour Set",
-    "Simple Workbench"
+    "Simple Workbench",
+    "Shadewalker Armour Set"
    ],
    "id": 222
   },
@@ -12484,8 +12484,8 @@
     "Copper Ingot",
     "Coarse Thread",
     "Leather",
-    "Shadewalker Armour Set",
-    "Simple Workbench"
+    "Simple Workbench",
+    "Shadewalker Armour Set"
    ],
    "id": 223
   },
@@ -21142,8 +21142,8 @@
    "unlock": "",
    "sources": [
     "Legendary Ancestral Weapon Shards",
-    "Onyx Tear",
     "Oaksong",
+    "Onyx Tear",
     "Sanguine Longbow"
    ],
    "id": 497
@@ -21445,36 +21445,6 @@
   {
    "outputs": [
     {
-     "item": "Phantom's Veil",
-     "qty": 1
-    }
-   ],
-   "inputs": [
-    {
-     "item": "Silk",
-     "qty": 12
-    },
-    {
-     "item": "Spectral Dust",
-     "qty": 8
-    }
-   ],
-   "stations": [
-    "Tailoring Bench"
-   ],
-   "time": "60s (48s)",
-   "unlock": "Sir Magnus the Overseer",
-   "sources": [
-    "Phantom's Veil",
-    "Silk",
-    "Spectral Dust",
-    "Tailoring Bench"
-   ],
-   "id": 508
-  },
-  {
-   "outputs": [
-    {
      "item": "Opulent Night Visage",
      "qty": 1
     }
@@ -21498,7 +21468,7 @@
     "Opulent Night Visage",
     "Opulent Night Armour Set"
    ],
-   "id": 509
+   "id": 508
   },
   {
    "outputs": [
@@ -21526,7 +21496,7 @@
     "Opulent Night Armour Set",
     "Tailoring Bench"
    ],
-   "id": 510
+   "id": 509
   },
   {
    "outputs": [
@@ -21554,7 +21524,7 @@
     "Opulent Night Armour Set",
     "Tailoring Bench"
    ],
-   "id": 511
+   "id": 510
   },
   {
    "outputs": [
@@ -21582,7 +21552,7 @@
     "Opulent Night Armour Set",
     "Tailoring Bench"
    ],
-   "id": 512
+   "id": 511
   },
   {
    "outputs": [
@@ -21610,7 +21580,7 @@
     "Opulent Night Armour Set",
     "Tailoring Bench"
    ],
-   "id": 513
+   "id": 512
   },
   {
    "outputs": [
@@ -21642,7 +21612,7 @@
     "Advanced Sawmill",
     "Sawmill"
    ],
-   "id": 514
+   "id": 513
   },
   {
    "outputs": [
@@ -21673,7 +21643,7 @@
     "Corrupted Oak",
     "Venom Sap"
    ],
-   "id": 515
+   "id": 514
   },
   {
    "outputs": [
@@ -21698,7 +21668,7 @@
     "Sculptured Wood",
     "Woodworking Bench"
    ],
-   "id": 516
+   "id": 515
   },
   {
    "outputs": [
@@ -21726,6 +21696,36 @@
     "Primal Blood Essence",
     "Scroll",
     "Stygian Summoning Circle"
+   ],
+   "id": 516
+  },
+  {
+   "outputs": [
+    {
+     "item": "Phantom's Veil",
+     "qty": 1
+    }
+   ],
+   "inputs": [
+    {
+     "item": "Silk",
+     "qty": 12
+    },
+    {
+     "item": "Spectral Dust",
+     "qty": 8
+    }
+   ],
+   "stations": [
+    "Tailoring Bench"
+   ],
+   "time": "60s (48s)",
+   "unlock": "Sir Magnus the Overseer",
+   "sources": [
+    "Phantom's Veil",
+    "Silk",
+    "Spectral Dust",
+    "Tailoring Bench"
    ],
    "id": 517
   },
@@ -22295,8 +22295,8 @@
    "time": "20s (5.5s)",
    "unlock": "",
    "sources": [
-    "Stone Brick",
     "Stone",
+    "Stone Brick",
     "Stone Dust",
     "Advanced Grinder",
     "Grinder"
